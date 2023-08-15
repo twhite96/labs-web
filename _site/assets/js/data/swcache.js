@@ -42,7 +42,7 @@ const resource = [
 const allowedDomains = [
     
 
-    '',
+    '0.0.0.0:4000',
 
     
         'res.cloudinary.com',
