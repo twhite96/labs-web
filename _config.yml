@@ -73,10 +73,10 @@ theme_mode: # [light|dark]
 # will be added to all image (site avatar & posts' images) paths starting with '/'
 #
 # e.g. 'https://cdn.com'
-img_cdn: ""
+img_cdn: "https://res.cloudinary.com/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "https://res.cloudinary.com/twhiteblog/image/upload/v1690994638/tifflabs_evc9ih.png'"
+avatar: "twhiteblog/image/upload/r_max/v1674171747/factoryofsadness_neon_background_portrait_81ad677b-151c-4ef9-8cb0-d1fccd9a5e1c_cklgdp.webp"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -104,10 +104,10 @@ comments:
 # Self-hosted static assets, optional › https://github.com/cotes2020/chirpy-static-assets
 assets:
   self_host:
-    enabled: # boolean, keep empty means false
+    enabled: true # boolean, keep empty means false
     # specify the Jekyll environment, empty means both
     # only works if `assets.self_host.enabled` is 'true'
-    env: # [development|production]
+    env: [development|production]
 
 pwa:
   enabled: true # the option for PWA feature
