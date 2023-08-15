@@ -7,7 +7,8 @@ tags: [dashboard]
 pin: true
 ---
 
-It's been a minute, hasn't it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.
+> It's been a minute, hasn't it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.
+{: .prompt-info }
 
 The recession has hit us all hard, some more than others, as 10s of thousands of tech workers have been laid off. I feel lucky that I don't feel like I'll be on the market for long and that I can finally create the content I want across my entire suite of blogs and YouTube channels.
 
