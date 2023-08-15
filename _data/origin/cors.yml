@@ -8,6 +8,7 @@ cdns:
   - url: https://fonts.googleapis.com
   # jsDelivr CDN
   - url: https://cdn.jsdelivr.net
+  - url: https://res.cloudinary.com
 
 # fonts
 
