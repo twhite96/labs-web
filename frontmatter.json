@@ -34,12 +34,48 @@
           "type": "draft"
         },
         {
-          "title": "Tags",
+          "title": "author",
+          "name": "author",
+          "type": "string"
+        },
+        {
+          "title": "pin",
+          "name": "pin",
+          "type": "boolean"
+        },
+        {
+          "title": "tags",
           "name": "tags",
           "type": "tags"
         },
         {
-          "title": "Categories",
+          "title": "categories",
+          "name": "categories",
+          "type": "categories"
+        }
+      ]
+    },
+    {
+      "name": "tags",
+      "pageBundle": false,
+      "fields": [
+        {
+          "title": "title",
+          "name": "title",
+          "type": "string"
+        },
+        {
+          "title": "description",
+          "name": "description",
+          "type": "string"
+        },
+        {
+          "title": "tags",
+          "name": "tags",
+          "type": "tags"
+        },
+        {
+          "title": "categories",
           "name": "categories",
           "type": "categories"
         },
@@ -49,28 +85,14 @@
           "type": "string"
         },
         {
-          "title": "pin",
-          "name": "pin",
-          "type": "boolean"
+          "title": "date",
+          "name": "date",
+          "type": "datetime"
         }
       ]
     }
   ],
   "frontMatter.framework.id": "jekyll",
   "frontMatter.content.publicFolder": "assets",
-  "frontMatter.preview.host": "http://localhost:4000",
-  "frontMatter.taxonomy.tags": [
-    "dashboard",
-    "favicon",
-    "getting started",
-    "meta",
-    "typography",
-    "writing"
-  ],
-  "frontMatter.taxonomy.categories": [
-    "Blogging",
-    "Demo",
-    "Home Assistant",
-    "Tutorial"
-  ]
+  "frontMatter.preview.host": "http://localhost:4000"
 }
