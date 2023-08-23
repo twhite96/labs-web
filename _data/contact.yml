@@ -23,6 +23,6 @@
   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://linkedin.com/in/tiffanyrwhite'                  # Fill with your Linkedin homepage
 #
-# - type: stack-overflow
-#   icon: 'fab fa-stack-overflow'
-#   url:  ''                  # Fill with your stackoverflow homepage
+- type: buymeacoffee
+  icon: 'fa fa-buymeacoffee'
+  url:  'https://www.buymeacoffee.com/tifflabs'
