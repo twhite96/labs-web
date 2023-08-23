@@ -1,14 +1,14 @@
 #  The contact options.
 
 - type: github
-  icon: "fab fa-github"
+  icon: "fa fa-github"
 
 - type: email
-  icon: "fas fa-envelope"
+  icon: "fa fa-envelope"
   noblank: true # open link in current tab
 
 - type: rss
-  icon: "fas fa-rss"
+  icon: "fa fa-rss"
   noblank: true
 # Uncomment and complete the url below to enable more contact options
 #
@@ -17,7 +17,7 @@
   url:  'https://infosec.exchange/@tiff'
 
 - type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  icon: 'fa fa-linkedin-square'   # icons powered by <https://fontawesome.com/>
   url:  'https://linkedin.com/in/tiffanyrwhite'                  # Fill with your Linkedin homepage
 #
 - type: buymeacoffee
