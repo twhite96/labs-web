@@ -30,6 +30,7 @@ const resource = [
         '/assets/img/favicons/favicon-16x16.png',
         '/assets/img/favicons/favicon-32x32.png',
         '/assets/img/favicons/favicon.ico',
+        '/assets/img/favicons/favicon.svg',
         '/assets/img/favicons/mstile-150x150.png',
         '/assets/img/favicons/safari-pinned-tab.svg',
         '/assets/img/favicons/site.webmanifest',
@@ -45,7 +46,7 @@ const resource = [
 const allowedDomains = [
     
 
-    '0.0.0.0:4000',
+    '0.0.0.0:4004',
 
     
         'res.cloudinary.com',

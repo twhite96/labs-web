@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://0.0.0.0:4000/</id>
+  <id>http://0.0.0.0:4004/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2023-08-23T00:27:27-04:00</updated>
+  <updated>2023-09-01T08:18:00-04:00</updated>
   <author>
     <name>tiff</name>
-    <uri>http://0.0.0.0:4000/</uri>
+    <uri>http://0.0.0.0:4004/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://0.0.0.0:4004/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://0.0.0.0:4000/"/>
+    href="http://0.0.0.0:4004/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 tiff </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,21 +20,19 @@
 
   
   <entry>
-    <title>Migrating Devices to Separate Networks</title>
-    <link href="http://0.0.0.0:4000/posts/migrating-devices-separate-networks/" rel="alternate" type="text/html" title="Migrating Devices to Separate Networks" />
-    <published>2023-02-19T00:00:00-05:00</published>
+    <title>Using an old iPad as a Home Assistant wall kiosk</title>
+    <link href="http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk/" rel="alternate" type="text/html" title="Using an old iPad as a Home Assistant wall kiosk" />
+    <published>2023-08-22T23:35:41-04:00</published>
   
-    <updated>2023-02-19T00:00:00-05:00</updated>
+    <updated>2023-08-22T23:35:41-04:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/migrating-devices-separate-networks/</id>
-    <content src="http://0.0.0.0:4000/posts/migrating-devices-separate-networks/" />
+    <id>http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk/</id>
+    <content src="http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk/" />
     <author>
       <name>tiff</name>
     </author>
 
   
-    
-    <category term="Networking" />
     
   
 
@@ -46,14 +44,77 @@
 
 
 
-      With my new UniFi Ap up and running, I plan on migrating my cameras to different networks I created in the UniFi controller.
+      Using an old iPad as a Home Assistant wall kiosk
 
-I am still learning about how to use a VLAN and how to set one up on my Ap.
+Wall kiosk.png
 
-So far, I’ve got a nice overview of traffic coming through my network.
+    </summary>
+  
 
-I’ll be writing more soon.
+  </entry>
 
+  
+  <entry>
+    <title>Playing with MQTT, ZWave JS UI, and Alarmo</title>
+    <link href="http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo/" rel="alternate" type="text/html" title="Playing with MQTT, ZWave JS UI, and Alarmo" />
+    <published>2023-08-22T23:14:03-04:00</published>
+  
+    <updated>2023-08-22T23:14:03-04:00</updated>
+  
+    <id>http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo/</id>
+    <content src="http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>What You Can (Or Can't) Do When Renting</title>
+    <link href="http://0.0.0.0:4004/posts/renting/" rel="alternate" type="text/html" title="What You Can (Or Can&amp;apos;t) Do When Renting" />
+    <published>2023-08-22T22:54:00-04:00</published>
+  
+    <updated>2023-08-22T22:54:00-04:00</updated>
+  
+    <id>http://0.0.0.0:4004/posts/renting/</id>
+    <content src="http://0.0.0.0:4004/posts/renting/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What You Can (Or Can’t) Do When Renting
+
+Note: Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking any advice listed here.
 
 
     </summary>
@@ -63,21 +124,19 @@ I’ll be writing more soon.
 
   
   <entry>
-    <title>Slow and Dirty Dashboards</title>
-    <link href="http://0.0.0.0:4000/posts/slow-and-dirty-dashboards/" rel="alternate" type="text/html" title="Slow and Dirty Dashboards" />
-    <published>2023-01-25T00:00:00-05:00</published>
+    <title>Designing Your Ideal Smart Home with SketchUp</title>
+    <link href="http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup/" rel="alternate" type="text/html" title="Designing Your Ideal Smart Home with SketchUp" />
+    <published>2023-08-22T22:50:56-04:00</published>
   
-    <updated>2023-08-15T06:11:36-04:00</updated>
+    <updated>2023-08-22T22:50:56-04:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/slow-and-dirty-dashboards/</id>
-    <content src="http://0.0.0.0:4000/posts/slow-and-dirty-dashboards/" />
+    <id>http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup/</id>
+    <content src="http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup/" />
     <author>
       <name>tiff</name>
     </author>
 
   
-    
-    <category term="Home Assistant" />
     
   
 
@@ -89,11 +148,8 @@ I’ll be writing more soon.
 
 
 
-      
-  It’s been a minute, hasn’t it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.
+      Designing Your Ideal Smart Home with SketchUp
 
-
-The recession has hit us all hard, some more than others, as 10s of thousands of tech workers have been laid off. I feel lucky th...
     </summary>
   
 
@@ -101,21 +157,19 @@ The recession has hit us all hard, some more than others, as 10s of thousands of
 
   
   <entry>
-    <title>Curiosity and Home Assistant</title>
-    <link href="http://0.0.0.0:4000/posts/curiosity-and-home-assistant/" rel="alternate" type="text/html" title="Curiosity and Home Assistant" />
-    <published>2023-01-25T00:00:00-05:00</published>
+    <title>Latest Home Assistant Updates and New Dashboard Content</title>
+    <link href="http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content/" rel="alternate" type="text/html" title="Latest Home Assistant Updates and New Dashboard Content" />
+    <published>2023-08-22T00:00:00-04:00</published>
   
-    <updated>2023-01-25T00:00:00-05:00</updated>
+    <updated>2023-08-22T00:00:00-04:00</updated>
   
-    <id>http://0.0.0.0:4000/posts/curiosity-and-home-assistant/</id>
-    <content src="http://0.0.0.0:4000/posts/curiosity-and-home-assistant/" />
+    <id>http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content/</id>
+    <content src="http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content/" />
     <author>
       <name>tiff</name>
     </author>
 
   
-    
-    <category term="Home Assistant" />
     
   
 
@@ -127,54 +181,8 @@ The recession has hit us all hard, some more than others, as 10s of thousands of
 
 
 
-      A brief post here.
-
-Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my job and understanding the pipes that gird all the infrastructure I build apps on top of.
-
-It’s taken me a little under two years to feel comfortable with terms like:
-
-
-  Proxmox
-  NGINX
-  NGINX Proxy Ma...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Content update, Vine Voice edition</title>
-    <link href="http://0.0.0.0:4000/posts/content-update-vine-voice-edition/" rel="alternate" type="text/html" title="Content update, Vine Voice edition" />
-    <published>2022-11-01T00:00:00-04:00</published>
-  
-    <updated>2022-11-01T00:00:00-04:00</updated>
-  
-    <id>http://0.0.0.0:4000/posts/content-update-vine-voice-edition/</id>
-    <content src="http://0.0.0.0:4000/posts/content-update-vine-voice-edition/" />
-    <author>
-      <name>tiff</name>
-    </author>
-
-  
-    
-    <category term="Updates" />
-    
-  
-
-  
-    <summary>
       
 
-
-
-
-
-      I’ve been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook1 and pumping out more content on this website and soon, YouTube2.
-
-This is beginning to pay off for me in a big way:
-
-I’ve been invited to an Amazon program that I can’t remember if I can disclose here or not3 but I can tell you it...
     </summary>
   
 

@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
   A blog about smart homes made with Home Assistant and home labs.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: ""
+url: "https://tifflabs.org"
 
 github:
   username: twhite96 # change to your github username
@@ -110,7 +110,7 @@ assets:
     env: [development|production]
 
 pwa:
-  enabled: true # the option for PWA feature
+  enabled: false # the option for PWA feature
 
 paginate: 10
 
