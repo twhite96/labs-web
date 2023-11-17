@@ -65,6 +65,7 @@
   color: var(--link-color);
 }
 
+
 %link-underline {
   border-bottom: 1px solid var(--link-underline-color);
 }
@@ -176,4 +177,9 @@
       font: var(--fa-font-#{$fa-style});
     }
   }
+}
+
+.post-content a:not(.img-link):hover {
+  background-color: #fd250d !important;
+  color: white !important;
 }

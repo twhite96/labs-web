@@ -251,6 +251,8 @@ i {
 
     &:hover {
       transition: all 0.3s ease-in;
+      background-color: #fd250d !important;
+      color: white !important;
     }
   }
 }
@@ -612,9 +614,6 @@ i {
   color: var(--text-muted-color) !important;
 }
 
-// .text-muted:hover {
-//   color: var(--text-muted-color-hover) !important;
-// }
 /* Overwrite bootstrap tooltip */
 .tooltip-inner {
   font-size: 0.7rem;
