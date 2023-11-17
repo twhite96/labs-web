@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2023-11-17T01:20:11-05:00</updated>
+  <updated>2023-11-17T01:30:12-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -150,7 +150,7 @@ The recession has hit us all hard, some more than others, as 10s of thousands of
     <link href="http://0.0.0.0:4000/posts/curiosity-and-home-assistant/" rel="alternate" type="text/html" title="Curiosity and Home Assistant" />
     <published>2023-01-25T00:00:00-05:00</published>
   
-    <updated>2023-01-25T00:00:00-05:00</updated>
+    <updated>2023-11-17T01:20:38-05:00</updated>
   
     <id>http://0.0.0.0:4000/posts/curiosity-and-home-assistant/</id>
     <content src="http://0.0.0.0:4000/posts/curiosity-and-home-assistant/" />
