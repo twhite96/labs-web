@@ -4,7 +4,6 @@ author: tiff
 date: 2023-01-25
 categories: [Home Assistant]
 tags: [meta]
-pin: true
 ---
 
 A brief post here.

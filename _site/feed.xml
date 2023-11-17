@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2023-11-17T01:18:30-05:00</updated>
+  <updated>2023-11-17T01:20:11-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -193,7 +193,7 @@ It’s taken me a little under two years to feel comfortable with terms like:
     <link href="http://0.0.0.0:4000/posts/content-update-vine-voice-edition/" rel="alternate" type="text/html" title="Content update, Vine Voice edition" />
     <published>2022-11-01T00:00:00-04:00</published>
   
-    <updated>2022-11-01T00:00:00-04:00</updated>
+    <updated>2023-11-17T01:19:29-05:00</updated>
   
     <id>http://0.0.0.0:4000/posts/content-update-vine-voice-edition/</id>
     <content src="http://0.0.0.0:4000/posts/content-update-vine-voice-edition/" />
