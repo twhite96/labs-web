@@ -612,6 +612,9 @@ i {
   color: var(--text-muted-color) !important;
 }
 
+.text-muted:hover {
+  color: var(--text-muted-color-hover) !important;
+}
 /* Overwrite bootstrap tooltip */
 .tooltip-inner {
   font-size: 0.7rem;

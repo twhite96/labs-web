@@ -7,7 +7,7 @@ author: tiff
 ---
  
 
-I've been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook[^1] and pumping out more content on this website and soon, [YouTube](https://www.youtube.com/@SuburbanSmarts)[^2].
+I've been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook[^1] and pumping out more content on this website and soon, [YouTube](https://www.youtube.com/@tifflabs)[^2].
 
 This is beginning to pay off for me in a big way:
 

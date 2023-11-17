@@ -4,7 +4,7 @@
   <id>http://0.0.0.0:4000/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2023-09-03T12:29:34-04:00</updated>
+  <updated>2023-11-17T01:18:30-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://0.0.0.0:4000/</uri>
@@ -17,6 +17,51 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Building a Home Lab, Pt. 1</title>
+    <link href="http://0.0.0.0:4000/posts/building-a-home-lab-pt.-1/" rel="alternate" type="text/html" title="Building a Home Lab, Pt. 1" />
+    <published>2023-11-11T00:00:00-05:00</published>
+  
+    <updated>2023-11-11T00:00:00-05:00</updated>
+  
+    <id>http://0.0.0.0:4000/posts/building-a-home-lab-pt.-1/</id>
+    <content src="http://0.0.0.0:4000/posts/building-a-home-lab-pt.-1/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Home Lab" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’ve had one going for a while but today, it’s cleanup day.
+
+Background
+
+Home Assistant got me into DevOps.
+
+Don’t get me wrong, I was interested, but the more I read about Home Assistant and tinkered with it, the more When SysAdmins Ruled the Earth made sense1.
+
+So I went all in with my first rack, an Aeons 9U rack from Amazon…
+
+
+My friend had never done something like this, and while he’s han...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
