@@ -10,7 +10,7 @@
 - type: rss
   icon: "fa fa-rss"
   noblank: true
-# Uncomment and complete the url below to enable more contact options
+  url: 'https://tifflabs.org'
 #
 - type: mastodon
   icon: 'fa fa-mastodon'   # icons powered by <https://fontawesome.com/>
