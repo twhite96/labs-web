@@ -2,4 +2,4 @@
 #
 # Run jekyll serve and then launch the site
 
-bundle exec jekyll s -H 0.0.0.0 -l
+bundle exec jekyll serve --livereload --open-url --port 3040 --drafts --future --host 0.0.0.0
