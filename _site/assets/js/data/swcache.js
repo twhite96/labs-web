@@ -23,30 +23,13 @@ const resource = [
     /* --- Favicons & compressed JS --- */
     
     
-        '/assets/img/favicons/android-chrome-192x192.png',
-        '/assets/img/favicons/android-chrome-512x512.png',
-        '/assets/img/favicons/apple-touch-icon.png',
-        '/assets/img/favicons/browserconfig.xml',
-        '/assets/img/favicons/favicon-16x16.png',
-        '/assets/img/favicons/favicon-32x32.png',
-        '/assets/img/favicons/favicon.ico',
-        '/assets/img/favicons/favicon.svg',
-        '/assets/img/favicons/mstile-150x150.png',
-        '/assets/img/favicons/safari-pinned-tab.svg',
-        '/assets/img/favicons/site.webmanifest',
-        '/assets/js/dist/categories.min.js',
-        '/assets/js/dist/commons.min.js',
-        '/assets/js/dist/home.min.js',
-        '/assets/js/dist/misc.min.js',
-        '/assets/js/dist/page.min.js',
-        '/assets/js/dist/post.min.js'
 ];
 
 /* The request url with below domain will be cached */
 const allowedDomains = [
     
 
-    '0.0.0.0:3040',
+    'tifflabs.org',
 
     
         'res.cloudinary.com',
