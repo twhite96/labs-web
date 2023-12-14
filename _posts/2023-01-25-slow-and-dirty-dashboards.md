@@ -21,7 +21,7 @@ I'm not interested in ligating this at the moment; what I want to write about _t
 ## What are dashboards?
 Dashboards are just that; a place where you can collect different aspects of your Home Assistant instance using Lovelace cards that display that information in a visual way.
 
-I am trying to figure out who my audience is for this blog so please keep that in mind while reading this. If this is too basic for you, <a href="mailto:contact@suburbansmarts.org">reach out to me</a> so that I can understand what you want to read, what you don't, and your skill level and I'll adjust these articles based on that feedback.
+I am trying to figure out who my audience is for this blog so please keep that in mind while reading this. If this is too basic for you, <a href="mailto:contact@tifflabs.org">reach out to me</a> so that I can understand what you want to read, what you don't, and your skill level and I'll adjust these articles based on that feedback.
 
 ## Can you please just show me examples??
 
@@ -30,6 +30,6 @@ Sure! Here are a few of my dashboards in Home Assistant below.
 
 ## Have an interesting dashboard?
 
-I'd like to hear from you! You can send me your dashboards at <a href="mailto:dashboards@suburbansmarts.org">dashboards at Suburban Smarts dot org</a>.
+I'd like to hear from you! You can send me your dashboards at <a href="mailto:dashboards@tifflabs.org">dashboards at tiff labs dot org</a>.
 
 Thanks!

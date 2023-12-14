@@ -1,4 +1,8 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="https://tifflabs.org/feed.xml" rel="self" type="application/atom+xml" /><link href="https://tifflabs.org/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-01T20:16:55-05:00</updated><id>https://tifflabs.org/feed.xml</id><title type="html">tiff labs</title><subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle><entry><title type="html">Building a Home Lab, Pt. 1</title><link href="https://tifflabs.org/posts/building-a-home-lab-pt.-1/" rel="alternate" type="text/html" title="Building a Home Lab, Pt. 1" /><published>2023-11-11T00:00:00-05:00</published><updated>2023-11-11T00:00:00-05:00</updated><id>https://tifflabs.org/posts/building-a-home-lab-pt.-1</id><content type="html" xml:base="https://tifflabs.org/posts/building-a-home-lab-pt.-1/"><![CDATA[<p>I’ve had one going for a while but today, it’s cleanup day.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en"><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://0.0.0.0:4004/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4004/" rel="alternate" type="text/html" hreflang="en" /><updated>2023-12-13T21:03:46-05:00</updated><id>http://0.0.0.0:4004/feed.xml</id><title type="html">tiff labs</title><subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle><entry><title type="html">Using an old iPad as a Home Assistant wall kiosk</title><link href="http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk/" rel="alternate" type="text/html" title="Using an old iPad as a Home Assistant wall kiosk" /><published>2023-12-10T00:00:00-05:00</published><updated>2023-12-10T00:00:00-05:00</updated><id>http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk</id><content type="html" xml:base="http://0.0.0.0:4004/posts/ipad-home-assistant-wall-kiosk/"><![CDATA[<p>Using an old iPad as a Home Assistant wall kiosk</p>
+
+<p>Wall kiosk.png</p>]]></content><author><name>tiff</name></author><category term="Home Assistant" /><category term="ideas" /><summary type="html"><![CDATA[Not really a content creator but I have a YouTube channel.]]></summary></entry><entry><title type="html">YouTube Channel Updates</title><link href="http://0.0.0.0:4004/posts/youtube-channel-updates/" rel="alternate" type="text/html" title="YouTube Channel Updates" /><published>2023-12-10T00:00:00-05:00</published><updated>2023-12-10T00:00:00-05:00</updated><id>http://0.0.0.0:4004/posts/youtube-channel-updates</id><content type="html" xml:base="http://0.0.0.0:4004/posts/youtube-channel-updates/"><![CDATA[<p>I’ve started to upload to my YouTube channel which may be shocking, I know.</p>
+
+<!--truncate-->]]></content><author><name>tiff</name></author><category term="YouTube" /><category term="meta" /><summary type="html"><![CDATA[Not really a content creator but I have a YouTube channel.]]></summary></entry><entry><title type="html">Building a Home Lab, Pt. 1</title><link href="http://0.0.0.0:4004/posts/building-a-home-lab-pt.-1/" rel="alternate" type="text/html" title="Building a Home Lab, Pt. 1" /><published>2023-11-11T00:00:00-05:00</published><updated>2023-11-11T00:00:00-05:00</updated><id>http://0.0.0.0:4004/posts/building-a-home-lab-pt.-1</id><content type="html" xml:base="http://0.0.0.0:4004/posts/building-a-home-lab-pt.-1/"><![CDATA[<p>I’ve had one going for a while but today, it’s cleanup day.</p>
 
 <h2 id="background">Background</h2>
 
@@ -110,7 +114,9 @@ under the Creative Commons Attribution-NonCommercial-NonDeriv 4.0 International 
       <p>Because I am just in one room, the only thing I will do here is test each DIY device I build; the smarts don’t need to happen right now. <a href="#fnref:4" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
     </li>
   </ol>
-</div>]]></content><author><name>tiff</name></author><category term="Home Lab" /><category term="meta" /><summary type="html"><![CDATA[Revitalizing a hot mess of cables]]></summary></entry><entry><title type="html">Migrating Devices to Separate Networks</title><link href="https://tifflabs.org/posts/migrating-devices-separate-networks/" rel="alternate" type="text/html" title="Migrating Devices to Separate Networks" /><published>2023-02-19T00:00:00-05:00</published><updated>2023-02-19T00:00:00-05:00</updated><id>https://tifflabs.org/posts/migrating-devices-separate-networks</id><content type="html" xml:base="https://tifflabs.org/posts/migrating-devices-separate-networks/"><![CDATA[<p>With my new UniFi Ap up and running, I plan on migrating my cameras to different networks I created in the UniFi controller.</p>
+</div>]]></content><author><name>tiff</name></author><category term="Home Lab" /><category term="meta" /><summary type="html"><![CDATA[Revitalizing a hot mess of cables]]></summary></entry><entry><title type="html">Playing with MQTT, ZWave JS UI, and Alarmo</title><link href="http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo/" rel="alternate" type="text/html" title="Playing with MQTT, ZWave JS UI, and Alarmo" /><published>2023-08-22T23:14:03-04:00</published><updated>2023-08-22T23:14:03-04:00</updated><id>http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo</id><content type="html" xml:base="http://0.0.0.0:4004/posts/playing-mqtt-zwave-js-ui-alarmo/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">What You Can (Or Can’t) Do When Renting</title><link href="http://0.0.0.0:4004/posts/renting/" rel="alternate" type="text/html" title="What You Can (Or Can’t) Do When Renting" /><published>2023-08-22T22:54:00-04:00</published><updated>2023-08-22T22:54:00-04:00</updated><id>http://0.0.0.0:4004/posts/renting</id><content type="html" xml:base="http://0.0.0.0:4004/posts/renting/"><![CDATA[<p>What You Can (Or Can’t) Do When Renting</p>
+
+<p>Note: Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking any advice listed here.</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Note: Depending on where you rent, these tips may, or may not, be feasible alterations to make.]]></summary></entry><entry><title type="html">Designing Your Ideal Smart Home with SketchUp</title><link href="http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup/" rel="alternate" type="text/html" title="Designing Your Ideal Smart Home with SketchUp" /><published>2023-08-22T22:50:56-04:00</published><updated>2023-08-22T22:50:56-04:00</updated><id>http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup</id><content type="html" xml:base="http://0.0.0.0:4004/posts/designing-ideal-smart-home-sketchup/"><![CDATA[<p>Designing Your Ideal Smart Home with SketchUp</p>]]></content><author><name></name></author><summary type="html"><![CDATA[Designing Your Ideal Smart Home with SketchUp]]></summary></entry><entry><title type="html">Comparing DIY (and free) NVR Solutions</title><link href="http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/" rel="alternate" type="text/html" title="Comparing DIY (and free) NVR Solutions" /><published>2023-08-22T00:00:00-04:00</published><updated>2023-08-22T00:00:00-04:00</updated><id>http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions</id><content type="html" xml:base="http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Latest Home Assistant Updates and New Dashboard Content</title><link href="http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content/" rel="alternate" type="text/html" title="Latest Home Assistant Updates and New Dashboard Content" /><published>2023-08-22T00:00:00-04:00</published><updated>2023-08-22T00:00:00-04:00</updated><id>http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content</id><content type="html" xml:base="http://0.0.0.0:4004/posts/latest-home-assistant-updates-and-new-dashboard-content/"><![CDATA[]]></content><author><name></name></author><summary type="html"><![CDATA[]]></summary></entry><entry><title type="html">Migrating Devices to Separate Networks</title><link href="http://0.0.0.0:4004/posts/migrating-devices-separate-networks/" rel="alternate" type="text/html" title="Migrating Devices to Separate Networks" /><published>2023-02-19T00:00:00-05:00</published><updated>2023-02-19T00:00:00-05:00</updated><id>http://0.0.0.0:4004/posts/migrating-devices-separate-networks</id><content type="html" xml:base="http://0.0.0.0:4004/posts/migrating-devices-separate-networks/"><![CDATA[<p>With my new UniFi Ap up and running, I plan on migrating my cameras to different networks I created in the UniFi controller.</p>
 
 <p>I am still learning about how to use a VLAN and how to set one up on my Ap.</p>
 
@@ -118,36 +124,7 @@ under the Creative Commons Attribution-NonCommercial-NonDeriv 4.0 International 
 
 <p>I’ll be writing more soon.</p>
 
-<p><img src="twhiteblog/image/upload/v1692760963/network_sxovp3.webp" alt="" /></p>]]></content><author><name>tiff</name></author><category term="Networking" /><category term="meta" /><summary type="html"><![CDATA[VLANs are one way to separate IoT devices from your main network]]></summary></entry><entry><title type="html">Curiosity and Home Assistant</title><link href="https://tifflabs.org/posts/curiosity-and-home-assistant/" rel="alternate" type="text/html" title="Curiosity and Home Assistant" /><published>2023-01-25T00:00:00-05:00</published><updated>2023-11-17T01:20:38-05:00</updated><id>https://tifflabs.org/posts/curiosity-and-home-assistant</id><content type="html" xml:base="https://tifflabs.org/posts/curiosity-and-home-assistant/"><![CDATA[<p>A brief post here.</p>
-
-<p>Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my job and understanding the pipes that gird all the infrastructure I build apps on top of.</p>
-
-<p>It’s taken me a little under two years to feel comfortable with terms like:</p>
-
-<ul>
-  <li>Proxmox</li>
-  <li>NGINX</li>
-  <li>NGINX Proxy Manager</li>
-  <li>Docker</li>
-  <li>Portainter</li>
-  <li>VMs</li>
-  <li>Bittorrent</li>
-  <li>How to tunnel traffic securely by using Cloudflare and NPM to and from Home Assistant</li>
-</ul>
-
-<p>and more.</p>
-
-<p>These were terms I’d heard of but never understood and was too scared to find out more about.</p>
-
-<p>Now I have a small home lab and switches everywhere.</p>
-
-<p>I am neurodivergent and these past three years have been incredibly difficult for me. Diving into Home Assistant, DevOps, and building apps has literally saved my life more times than I can count.</p>
-
-<h2 id="welp">Welp</h2>
-
-<p>That got a bit mushy at the end there innit.</p>
-
-<p>But it’s true. And at the end of the day, it’s <em>fun</em>.</p>]]></content><author><name>tiff</name></author><category term="Home Assistant" /><category term="meta" /><summary type="html"><![CDATA[A brief post here.]]></summary></entry><entry><title type="html">Slow and Dirty Dashboards</title><link href="https://tifflabs.org/posts/slow-and-dirty-dashboards/" rel="alternate" type="text/html" title="Slow and Dirty Dashboards" /><published>2023-01-25T00:00:00-05:00</published><updated>2023-08-15T06:11:36-04:00</updated><id>https://tifflabs.org/posts/slow-and-dirty-dashboards</id><content type="html" xml:base="https://tifflabs.org/posts/slow-and-dirty-dashboards/"><![CDATA[<blockquote class="prompt-info">
+<p><img src="twhiteblog/image/upload/v1692760963/network_sxovp3.webp" alt="" /></p>]]></content><author><name>tiff</name></author><category term="Networking" /><category term="meta" /><summary type="html"><![CDATA[VLANs are one way to separate IoT devices from your main network]]></summary></entry><entry><title type="html">Slow and Dirty Dashboards</title><link href="http://0.0.0.0:4004/posts/slow-and-dirty-dashboards/" rel="alternate" type="text/html" title="Slow and Dirty Dashboards" /><published>2023-01-25T00:00:00-05:00</published><updated>2023-08-15T06:11:36-04:00</updated><id>http://0.0.0.0:4004/posts/slow-and-dirty-dashboards</id><content type="html" xml:base="http://0.0.0.0:4004/posts/slow-and-dirty-dashboards/"><![CDATA[<blockquote class="prompt-info">
   <p>It’s been a minute, hasn’t it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.</p>
 </blockquote>
 
@@ -162,7 +139,7 @@ under the Creative Commons Attribution-NonCommercial-NonDeriv 4.0 International 
 <h2 id="what-are-dashboards">What are dashboards?</h2>
 <p>Dashboards are just that; a place where you can collect different aspects of your Home Assistant instance using Lovelace cards that display that information in a visual way.</p>
 
-<p>I am trying to figure out who my audience is for this blog so please keep that in mind while reading this. If this is too basic for you, <a href="mailto:contact@suburbansmarts.org">reach out to me</a> so that I can understand what you want to read, what you don’t, and your skill level and I’ll adjust these articles based on that feedback.</p>
+<p>I am trying to figure out who my audience is for this blog so please keep that in mind while reading this. If this is too basic for you, <a href="mailto:contact@tifflabs.org">reach out to me</a> so that I can understand what you want to read, what you don’t, and your skill level and I’ll adjust these articles based on that feedback.</p>
 
 <h2 id="can-you-please-just-show-me-examples">Can you please just show me examples??</h2>
 
@@ -170,24 +147,6 @@ under the Creative Commons Attribution-NonCommercial-NonDeriv 4.0 International 
 
 <h2 id="have-an-interesting-dashboard">Have an interesting dashboard?</h2>
 
-<p>I’d like to hear from you! You can send me your dashboards at <a href="mailto:dashboards@suburbansmarts.org">dashboards at Suburban Smarts dot org</a>.</p>
+<p>I’d like to hear from you! You can send me your dashboards at <a href="mailto:dashboards@tifflabs.org">dashboards at tiff labs dot org</a>.</p>
 
-<p>Thanks!</p>]]></content><author><name>tiff</name></author><category term="Home Assistant" /><category term="dashboard" /><summary type="html"><![CDATA[It’s been a minute, hasn’t it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.]]></summary></entry><entry><title type="html">Content update, Vine Voice edition</title><link href="https://tifflabs.org/posts/content-update-vine-voice-edition/" rel="alternate" type="text/html" title="Content update, Vine Voice edition" /><published>2022-11-01T00:00:00-04:00</published><updated>2023-11-17T01:19:29-05:00</updated><id>https://tifflabs.org/posts/content-update-vine-voice-edition</id><content type="html" xml:base="https://tifflabs.org/posts/content-update-vine-voice-edition/"><![CDATA[<p>I’ve been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup> and pumping out more content on this website and soon, <a href="https://www.youtube.com/@tifflabs">YouTube</a><sup id="fnref:2" role="doc-noteref"><a href="#fn:2" class="footnote" rel="footnote">2</a></sup>.</p>
-
-<p>This is beginning to pay off for me in a big way:</p>
-
-<p>I’ve been invited to an Amazon program that I can’t remember if I can disclose here or not<sup id="fnref:3" role="doc-noteref"><a href="#fn:3" class="footnote" rel="footnote">3</a></sup> but I can tell you it’ll make me want to create more content, right here on this blog.</p>
-
-<div class="footnotes" role="doc-endnotes">
-  <ol>
-    <li id="fn:1" role="doc-endnote">
-      <p>Trying to up my game in the forums, too. <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:2" role="doc-endnote">
-      <p>And failing <em>horribly</em>. <a href="#fnref:2" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-    <li id="fn:3" role="doc-endnote">
-      <p>I’ll need to reread the <em>fine print</em>. <a href="#fnref:3" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
-    </li>
-  </ol>
-</div>]]></content><author><name>tiff</name></author><category term="Updates" /><category term="meta" /><summary type="html"><![CDATA[Writing reviews for Amazon Vine for YOU.]]></summary></entry></feed>
+<p>Thanks!</p>]]></content><author><name>tiff</name></author><category term="Home Assistant" /><category term="dashboard" /><summary type="html"><![CDATA[It’s been a minute, hasn’t it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.]]></summary></entry></feed>

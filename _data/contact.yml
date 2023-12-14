@@ -14,11 +14,18 @@
 #
 - type: mastodon
   icon: 'fa fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://infosec.exchange/@tiff'
+  url:  'https://fosstodoon.org/@tiff'
 
-- type: linkedin
-  icon: 'fa fa-linkedin-square'   # icons powered by <https://fontawesome.com/>
-  url:  'https://linkedin.com/in/tiffanyrwhite'                  # Fill with your Linkedin homepage
+- type: threads
+  icon: 'fa-brands fa-threads'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.threads.net/@_tifflabs'
+
+- type: instagram
+  icon: 'fa fa-instagram'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.instagram.com/_tifflabs'                  # Fill with your Linkedin homepage
+- type: youtube
+  icon: 'fa fa-youtube'   # icons powered by <https://fontawesome.com/>
+  url:  'https://www.youtube.com/@tifflabs'                  # Fill with your Linkedin homepage
 #
 - type: buymeacoffee
   icon: 'fa fa-buymeacoffee'
