@@ -5,6 +5,7 @@ date: 2023-12-10
 preview: I've started to upload to my YouTube channel which may be shocking, I know.
 author: tiff
 pin: false
+draft: true
 tags: [ideas]
 categories: [Home Assistant]
 ---
