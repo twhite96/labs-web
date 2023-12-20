@@ -24,7 +24,7 @@ layout: default
         {{ content }}
       {% endif %}
     {% endcapture %}
-
+      {% include_cached mastodon.html %}
       {% if page.layout == 'page' or page.collection == 'tabs' %}
         {% assign tab_key = page.title | downcase %}
         {% assign title = site.data.locales[lang].tabs[tab_key] | default: page.title %}
@@ -46,6 +46,7 @@ layout: default
     <div class="access">
       {% include_cached update-list.html lang=lang %}
       {% include_cached trending-tags.html lang=lang %}
+      {% include_cached buymeacoffee.html lang=lang %}
     </div>
 
     {% for _include in layout.panel_includes %}

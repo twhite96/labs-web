@@ -26,6 +26,7 @@ layout: compress
       <div id="main" class="container px-xxl-5">
         {% include topbar.html lang=lang %}
         {{ content }}
+        {% include mastodon.html %}
         {% include_cached search-results.html lang=lang %}
       </div>
     </div>

@@ -41,7 +41,6 @@ refactor: true
 {% endif %}
 
 <div id="post-list">
-  <a rel="me" style="display: none;" href="https://fosstodon.org/@tiff">Mastodon</a>
   {% for post in posts %}
     <a href="{{ post.url | relative_url }}" class="card-wrapper">
       <div class="card post-preview flex-md-row-reverse">

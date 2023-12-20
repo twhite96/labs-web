@@ -12,7 +12,9 @@ categories: [Home Lab]
 
 I've had one going for a while but today, it's cleanup day.
 
-## Background
+<!--more-->
+
+Some background...
 
 Home Assistant got me into DevOps.
 

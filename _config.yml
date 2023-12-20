@@ -81,7 +81,7 @@ avatar: "twhiteblog/image/upload/r_max/v1674171747/factoryofsadness_neon_backgro
 
 # boolean type, the global switch for TOC in posts.
 toc: true
-
+excerpt_separator: <!--more-->
 comments:
   active: giscus
   disqus:
@@ -186,7 +186,7 @@ exclude:
   - rollup.config.js
   - node_modules
   - package*.json
-
+future: true
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

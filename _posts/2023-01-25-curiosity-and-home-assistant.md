@@ -8,6 +8,8 @@ tags: [meta]
 
 A brief post here.
 
+<!--more-->
+
 Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my job and understanding the pipes that gird all the infrastructure I build apps on top of.
 
 It's taken me a little under two years to feel comfortable with terms like:
