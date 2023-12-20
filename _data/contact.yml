@@ -14,7 +14,7 @@
 #
 - type: mastodon
   icon: 'fa fa-mastodon'   # icons powered by <https://fontawesome.com/>
-  url:  'https://fosstodoon.org/@tiff'
+  url:  'https://fosstodon.org/@tiff'
 
 - type: threads
   icon: 'fa-brands fa-threads'   # icons powered by <https://fontawesome.com/>

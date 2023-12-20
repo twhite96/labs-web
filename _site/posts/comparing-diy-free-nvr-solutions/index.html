@@ -37,25 +37,24 @@
   
     <!-- Begin Jekyll SEO tag v2.8.0 -->
 <meta name="generator" content="Jekyll v4.3.2" />
-<meta property="og:title" content="Migrating Devices to Separate Networks" />
-<meta name="author" content="tiff" />
+<meta property="og:title" content="Comparing DIY (and free) NVR Solutions" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="VLANs are one way to separate IoT devices from your main network" />
-<meta property="og:description" content="VLANs are one way to separate IoT devices from your main network" />
-<link rel="canonical" href="http://0.0.0.0:4004/posts/migrating-devices-separate-networks/" />
-<meta property="og:url" content="http://0.0.0.0:4004/posts/migrating-devices-separate-networks/" />
+<meta name="description" content="A blog about smart homes made with Home Assistant and home labs." />
+<meta property="og:description" content="A blog about smart homes made with Home Assistant and home labs." />
+<link rel="canonical" href="http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/" />
+<meta property="og:url" content="http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/" />
 <meta property="og:site_name" content="tiff labs" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2023-02-19T00:00:00-05:00" />
+<meta property="article:published_time" content="2023-08-22T22:42:20-04:00" />
 <meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="Migrating Devices to Separate Networks" />
+<meta property="twitter:title" content="Comparing DIY (and free) NVR Solutions" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"tiff","url":"https://github.com/twhite96/"},"dateModified":"2023-12-20T15:56:24-05:00","datePublished":"2023-02-19T00:00:00-05:00","description":"VLANs are one way to separate IoT devices from your main network","headline":"Migrating Devices to Separate Networks","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4004/posts/migrating-devices-separate-networks/"},"url":"http://0.0.0.0:4004/posts/migrating-devices-separate-networks/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-08-22T22:42:20-04:00","datePublished":"2023-08-22T22:42:20-04:00","description":"A blog about smart homes made with Home Assistant and home labs.","headline":"Comparing DIY (and free) NVR Solutions","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/"},"url":"http://0.0.0.0:4004/posts/comparing-diy-free-nvr-solutions/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
 
-  <title>Migrating Devices to Separate Networks | tiff labs
+  <title>Comparing DIY (and free) NVR Solutions | tiff labs
   </title>
 
   <!--
@@ -571,7 +570,7 @@
         
           
             
-              <span>Migrating Devices to Separate Networks</span>
+              <span>Comparing DIY (and free) NVR Solutions</span>
             
 
           
@@ -651,91 +650,6 @@
 
 
 
-  
-  
-
-  <!-- CDN URL -->
-  
-
-  <!-- Add image path -->
-  
-
-  
-    
-      
-      
-    
-
-    
-    
-
-    
-
-    
-    
-
-    
-    
-    
-    
-
-    
-      
-
-      
-      
-      
-
-      
-    
-      
-
-      
-      
-      
-
-      
-    
-
-    <!-- take out classes -->
-    
-
-    
-
-    
-
-    
-
-    <!-- lazy-load images <https://github.com/aFarkas/lazysizes#readme> -->
-    
-    
-
-    <!-- add image placeholder -->
-    
-      
-    
-
-    <!-- Bypass the HTML-proofer test -->
-    
-
-    
-      <!-- make sure the `<img>` is wrapped by `<a>` -->
-      
-
-      
-        <!-- create the image wrapper -->
-        
-      
-    
-
-    <!-- combine -->
-    
-
-  
-
-  
-
-
 
 <!-- Add header for code snippets -->
 
@@ -775,7 +689,7 @@
 
 
 
-<h1 data-toc-skip>Migrating Devices to Separate Networks</h1>
+<h1 data-toc-skip>Comparing DIY (and free) NVR Solutions</h1>
 
 <div class="post-meta text-muted">
     <!-- published date -->
@@ -792,42 +706,18 @@
 
 <em
   class=""
-  data-ts="1676782800"
+  data-ts="1692758540"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Feb 19, 2023
+  Aug 22, 2023
 </em>
 
     </span>
 
     <!-- lastmod date -->
-    
-    <span>
-      Updated
-      <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class=""
-  data-ts="1703105784"
-  data-df="ll"
-  
-    data-bs-toggle="tooltip" data-bs-placement="bottom"
-  
->
-  Dec 20, 2023
-</em>
-
-    </span>
     
 
   
@@ -841,10 +731,7 @@
 
       <em>
       
-        
-          <a href="https://github.com/twhite96/">tiff</a>
-          
-        
+        <a href="https://github.com/twhite96">tiff</a>
       
       </em>
     </span>
@@ -871,7 +758,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="60 words"
+  title="0 words"
 >
   <em>1 min</em> read</span>
 
@@ -882,17 +769,7 @@
 </div> <!-- .post-meta -->
 
 <div class="post-content">
-  <p>With my new UniFi Ap up and running, I plan on migrating my cameras to different networks I created in the UniFi controller.</p>
-
-<!--more-->
-
-<p>I am still learning about how to use a VLAN and how to set one up on my Ap.</p>
-
-<p>So far, I’ve got a nice overview of traffic coming through my network.</p>
-
-<p>I’ll be writing more soon.</p>
-
-<p><a href="https://res.cloudinary.com/twhiteblog/image/upload/v1692760963/network_sxovp3.webp" class="popup img-link "><img data-src="https://res.cloudinary.com/twhiteblog/image/upload/v1692760963/network_sxovp3.webp" alt="" class="lazyload" data-proofer-ignore></a></p>
+  
 
 </div>
 
@@ -900,22 +777,8 @@
 
   <!-- categories -->
   
-  <div class="post-meta mb-3">
-    <i class="far fa-folder-open fa-fw me-1"></i>
-    
-      <a href='/categories/networking/'>Networking</a>
-  </div>
-  
 
   <!-- tags -->
-  
-  <div class="post-tags">
-    <i class="fa fa-tags fa-fw me-1"></i>
-      
-      <a href="/tags/meta/"
-          class="post-tag no-text-decoration" >meta</a>
-      
-  </div>
   
 
   <div class="post-tail-bottom
@@ -947,7 +810,7 @@
     
       
       <a
-        href="https://twitter.com/intent/tweet?text=Migrating%20Devices%20to%20Separate%20Networks%20-%20tiff%20labs&url=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fmigrating-devices-separate-networks%2F"
+        href="https://twitter.com/intent/tweet?text=Comparing%20DIY%20(and%20free)%20NVR%20Solutions%20-%20tiff%20labs&url=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fcomparing-diy-free-nvr-solutions%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Twitter"
@@ -960,7 +823,7 @@
     
       
       <a
-        href="https://www.facebook.com/sharer/sharer.php?title=Migrating%20Devices%20to%20Separate%20Networks%20-%20tiff%20labs&u=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fmigrating-devices-separate-networks%2F"
+        href="https://www.facebook.com/sharer/sharer.php?title=Comparing%20DIY%20(and%20free)%20NVR%20Solutions%20-%20tiff%20labs&u=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fcomparing-diy-free-nvr-solutions%2F"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Facebook"
@@ -973,7 +836,7 @@
     
       
       <a
-        href="https://t.me/share/url?url=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fmigrating-devices-separate-networks%2F&text=Migrating%20Devices%20to%20Separate%20Networks%20-%20tiff%20labs"
+        href="https://t.me/share/url?url=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fcomparing-diy-free-nvr-solutions%2F&text=Comparing%20DIY%20(and%20free)%20NVR%20Solutions%20-%20tiff%20labs"
         data-bs-toggle="tooltip"
         data-bs-placement="top"
         title="Telegram"
@@ -1199,201 +1062,15 @@
 
 
 
-  
 
-  
-    
-  
 
-  
 
-  
 
-  
 
-  
 
-  
 
-  
 
-  
 
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-  
-
-
-
-
-
-
-
-
-
-
-
-  <div id="related-posts" class="mb-2 mb-sm-4">
-    <h3 class="pt-2 mb-4 ms-1" data-toc-skip>
-      Further Reading
-    </h3>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
-      
-        <div class="col">
-          <a href="/posts/content-update-vine-voice-edition/" class="card post-preview h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class="small"
-  data-ts="1700199214"
-  data-df="ll"
-  
->
-  Nov 17, 2023
-</em>
-
-              <h4 class="pt-0 my-2" data-toc-skip>Content update, Vine Voice edition</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  I’ve been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook1 and pumping out more content o...
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
-        <div class="col">
-          <a href="/posts/curiosity-and-home-assistant/" class="card post-preview h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class="small"
-  data-ts="1674622800"
-  data-df="ll"
-  
->
-  Jan 25, 2023
-</em>
-
-              <h4 class="pt-0 my-2" data-toc-skip>Curiosity and Home Assistant</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  A brief post here.
-
-
-
-Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my ...
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
-        <div class="col">
-          <a href="/posts/building-a-home-lab-pt.-1/" class="card post-preview h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class="small"
-  data-ts="1699678800"
-  data-df="ll"
-  
->
-  Nov 11, 2023
-</em>
-
-              <h4 class="pt-0 my-2" data-toc-skip>Building a Home Lab, Pt. 1</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  I’ve had one going for a while but today, it’s cleanup day.
-
-
-
-Some background…
-
-Home Assistant got me into DevOps.
-
-Don’t get me wrong, I was interested, but the more I read about Home Assistant a...
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
-    </div>
-    <!-- .card-deck -->
-  </div>
-  <!-- #related-posts -->
 
 
       
@@ -1402,22 +1079,21 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
 
 <div class="post-navigation d-flex justify-content-between">
   
-    <a
-      href="/posts/slow-and-dirty-dashboards/"
-      class="btn btn-outline-primary"
+    <div
+      class="btn btn-outline-primary disabled"
       prompt="Older"
     >
-      <p>Slow and Dirty Dashboards</p>
-    </a>
+      <p>-</p>
+    </div>
   
 
   
     <a
-      href="/posts/building-a-home-lab-pt.-1/"
+      href="/posts/content-update-vine-voice-edition/"
       class="btn btn-outline-primary"
       prompt="Newer"
     >
-      <p>Building a Home Lab, Pt. 1</p>
+      <p>Content update, Vine Voice edition</p>
     </a>
   
 </div>
@@ -1425,73 +1101,6 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
       
         
         <!--  The comments switcher -->
-
-  
-  <!-- https://giscus.app/ -->
-<script type="text/javascript">
-  (function () {
-    const origin = 'https://giscus.app';
-    const iframe = 'iframe.giscus-frame';
-    const lightTheme = 'light';
-    const darkTheme = 'dark_dimmed';
-
-    let initTheme = lightTheme;
-    const html = document.documentElement;
-
-    if (
-      (html.hasAttribute('data-mode') &&
-        html.getAttribute('data-mode') === 'dark') ||
-      (!html.hasAttribute('data-mode') &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
-    ) {
-      initTheme = darkTheme;
-    }
-
-    let giscusAttributes = {
-      src: 'https://giscus.app/client.js',
-      'data-repo': 'twhite96/labs-web',
-      'data-repo-id': 'R_kgDOKHTsLg',
-      'data-category': 'Ideas',
-      'data-category-id': 'DIC_kwDOKHTsLs4CYyxj',
-      'data-mapping': 'pathname',
-      'data-reactions-enabled': '1',
-      'data-emit-metadata': '0',
-      'data-theme': initTheme,
-      'data-input-position': 'bottom',
-      'data-lang': 'en',
-      crossorigin: 'anonymous',
-      async: ''
-    };
-
-    let giscusScript = document.createElement('script');
-    Object.entries(giscusAttributes).forEach(([key, value]) =>
-      giscusScript.setAttribute(key, value)
-    );
-    document.getElementById('tail-wrapper').appendChild(giscusScript);
-
-    addEventListener('message', (event) => {
-      if (
-        event.source === window &&
-        event.data &&
-        event.data.direction === ModeToggle.ID
-      ) {
-        /* global theme mode changed */
-        const mode = event.data.message;
-        const theme = mode === ModeToggle.DARK_MODE ? darkTheme : lightTheme;
-
-        const message = {
-          setConfig: {
-            theme: theme
-          }
-        };
-
-        const giscus = document.querySelector(iframe).contentWindow;
-        giscus.postMessage({ giscus: message }, origin);
-      }
-    });
-  })();
-</script>
-
 
 
       
