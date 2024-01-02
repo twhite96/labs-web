@@ -1,59 +1,8 @@
 [
   
   {
-    "title": "YouTube Channel Updates",
-    "url": "/posts/youtube-channel-updates/",
-    "categories": "YouTube",
-    "tags": "meta",
-    "date": "2023-12-10 00:00:00 -0500",
-    
-
-
-
-
-
-    
-    "snippet": "I’ve started to upload to my YouTube channel which may be shocking, I know.",
-    "content": "I’ve started to upload to my YouTube channel which may be shocking, I know."
-  },
-  
-  {
-    "title": "Using an old iPad as a Home Assistant wall kiosk",
-    "url": "/posts/ipad-home-assistant-wall-kiosk/",
-    "categories": "Home Assistant",
-    "tags": "ideas",
-    "date": "2023-12-10 00:00:00 -0500",
-    
-
-
-
-
-
-    
-    "snippet": "Using an old iPad as a Home Assistant wall kioskWall kiosk.png",
-    "content": "Using an old iPad as a Home Assistant wall kioskWall kiosk.png"
-  },
-  
-  {
-    "title": "Content update, Vine Voice edition",
-    "url": "/posts/content-update-vine-voice-edition/",
-    "categories": "Updates",
-    "tags": "meta",
-    "date": "2023-11-17 00:33:34 -0500",
-    
-
-
-
-
-
-    
-    "snippet": "I’ve been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook1 and pumping out more content o...",
-    "content": "I’ve been working on content  verticals for Suburban Smarts; things like writing reviews of smart home products, engaging in the Home Assistant community on Facebook1 and pumping out more content on this website and soon, YouTube2.This is beginning to pay off for me in a big way:I’ve been invited to an Amazon program that I can’t remember if I can disclose here or not3 but I can tell you it’ll make me want to create more content, right here on this blog.            Trying to up my game in the forums, too. &#8617;              And failing horribly. &#8617;              I’ll need to reread the fine print. &#8617;      "
-  },
-  
-  {
     "title": "Building a Home Lab, Pt. 1",
-    "url": "/posts/building-a-home-lab-pt.-1/",
+    "url": "/posts/2023-11-11-building-a-home-lab-pt.-1/",
     "categories": "Home Lab",
     "tags": "meta",
     "date": "2023-11-11 00:00:00 -0500",
@@ -69,93 +18,8 @@
   },
   
   {
-    "title": "Playing with MQTT, ZWave JS UI, and Alarmo",
-    "url": "/posts/playing-mqtt-zwave-js-ui-alarmo/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-08-22 23:14:03 -0400",
-    
-
-
-
-
-
-    
-    "snippet": "",
-    "content": ""
-  },
-  
-  {
-    "title": "What You Can (Or Can't) Do When Renting",
-    "url": "/posts/renting/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-08-22 22:54:00 -0400",
-    
-
-
-
-
-
-    
-    "snippet": "What You Can (Or Can’t) Do When RentingNote: Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking ...",
-    "content": "What You Can (Or Can’t) Do When RentingNote: Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking any advice listed here."
-  },
-  
-  {
-    "title": "Designing Your Ideal Smart Home with SketchUp",
-    "url": "/posts/designing-ideal-smart-home-sketchup/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-08-22 22:50:56 -0400",
-    
-
-
-
-
-
-    
-    "snippet": "Designing Your Ideal Smart Home with SketchUp",
-    "content": "Designing Your Ideal Smart Home with SketchUp"
-  },
-  
-  {
-    "title": "Latest Home Assistant Updates and New Dashboard Content",
-    "url": "/posts/latest-home-assistant-updates-and-new-dashboard-content/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-08-22 22:42:20 -0400",
-    
-
-
-
-
-
-    
-    "snippet": "",
-    "content": ""
-  },
-  
-  {
-    "title": "Comparing DIY (and free) NVR Solutions",
-    "url": "/posts/comparing-diy-free-nvr-solutions/",
-    "categories": "",
-    "tags": "",
-    "date": "2023-08-22 22:42:20 -0400",
-    
-
-
-
-
-
-    
-    "snippet": "",
-    "content": ""
-  },
-  
-  {
     "title": "Migrating Devices to Separate Networks",
-    "url": "/posts/migrating-devices-separate-networks/",
+    "url": "/posts/2023-02-19-migrating-devices-separate-networks/",
     "categories": "Networking",
     "tags": "meta",
     "date": "2023-02-19 00:00:00 -0500",
@@ -172,7 +36,7 @@
   
   {
     "title": "Slow and Dirty Dashboards",
-    "url": "/posts/slow-and-dirty-dashboards/",
+    "url": "/posts/2023-01-25-slow-and-dirty-dashboards/",
     "categories": "Home Assistant",
     "tags": "dashboard",
     "date": "2023-01-25 00:00:00 -0500",
@@ -189,7 +53,7 @@
   
   {
     "title": "Curiosity and Home Assistant",
-    "url": "/posts/curiosity-and-home-assistant/",
+    "url": "/posts/2023-01-25-curiosity-and-home-assistant/",
     "categories": "Home Assistant",
     "tags": "meta",
     "date": "2023-01-25 00:00:00 -0500",

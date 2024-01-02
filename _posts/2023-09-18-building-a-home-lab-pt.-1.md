@@ -3,6 +3,7 @@ title: Building a Home Lab, Pt. 1
 description: Revitalizing a hot mess of cables
 date: 2023-11-11
 preview: I've had one going for a while but today, it's cleanup day.
+excerpt: I've had one going for a while but today, it's cleanup day.
 author: tiff
 pin: true
 tags: [meta]
