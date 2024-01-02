@@ -27,7 +27,7 @@ description: >- # used by seo meta and the atom feed
   A blog about smart homes made with Home Assistant and home labs.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
-url: "https://tifflabs.org"
+url: 'https://tifflabs.org'
 
 github:
   username: twhite96 # change to your github username
@@ -143,10 +143,10 @@ defaults:
       # DO NOT modify the following parameter unless you are confident enough
       # to update the code of all other post links in this project.
       permalink: /posts/:title/
-  - scope:
-      path: _drafts
-    values:
-      comments: false
+  # - scope:
+  #     path: _drafts
+  #   values:
+  #     comments: false
   - scope:
       path: ""
       type: tabs # see `site.collections`
@@ -161,8 +161,13 @@ defaults:
       path: assets/js/dist
     values:
       swcache: false
-plugins:
-  - jekyll-feed
+# plugins:
+#   - jekyll-feed
+
+# feed:
+#   url: 'https://tifflabs.org'
+#   disable_in_development: true
+#   title: Tiff Labs
 
 sass:
   style: compressed
@@ -186,7 +191,15 @@ exclude:
   - rollup.config.js
   - node_modules
   - package*.json
-future: true
+# future: true
+
+liquid:
+  error_mode        : warn
+  strict_filters    : false
+  strict_variables  : false
+
+
+
 jekyll-archives:
   enabled: [categories, tags]
   layouts:

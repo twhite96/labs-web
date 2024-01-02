@@ -81,7 +81,11 @@ tail_includes:
 
 <div class="post-content">
   {{ content }}
+  <div>
+    {% include_cached buymeacoffee.html lang=lang %}
+  </div>
 </div>
+
 
 <div class="post-tail-wrapper text-muted">
 
@@ -125,6 +129,7 @@ tail_includes:
 
       {% endif %}
     </div>
+
 
     {% include post-sharing.html lang=lang %}
 

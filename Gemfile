@@ -4,8 +4,6 @@ source "https://rubygems.org"
 
 gemspec
 
-gem 'jekyll-feed'
-
 group :test do
   gem "html-proofer", "~> 3.18"
 end
