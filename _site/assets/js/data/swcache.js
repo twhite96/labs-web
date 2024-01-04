@@ -29,7 +29,7 @@ const resource = [
 const allowedDomains = [
     
 
-    'tifflabs.org',
+    'localhost:4004',
 
     
         'res.cloudinary.com',

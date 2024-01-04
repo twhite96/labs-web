@@ -2,7 +2,7 @@
   
   {
     "title": "Building a Home Lab, Pt. 1",
-    "url": "/posts/2023-11-11-building-a-home-lab-pt.-1/",
+    "url": "/posts/building-a-home-lab-pt.-1/",
     "categories": "Home Lab",
     "tags": "meta",
     "date": "2023-11-11 00:00:00 -0500",
@@ -19,7 +19,7 @@
   
   {
     "title": "Migrating Devices to Separate Networks",
-    "url": "/posts/2023-02-19-migrating-devices-separate-networks/",
+    "url": "/posts/migrating-devices-separate-networks/",
     "categories": "Networking",
     "tags": "meta",
     "date": "2023-02-19 00:00:00 -0500",
@@ -36,7 +36,7 @@
   
   {
     "title": "Slow and Dirty Dashboards",
-    "url": "/posts/2023-01-25-slow-and-dirty-dashboards/",
+    "url": "/posts/slow-and-dirty-dashboards/",
     "categories": "Home Assistant",
     "tags": "dashboard",
     "date": "2023-01-25 00:00:00 -0500",
@@ -53,7 +53,7 @@
   
   {
     "title": "Curiosity and Home Assistant",
-    "url": "/posts/2023-01-25-curiosity-and-home-assistant/",
+    "url": "/posts/curiosity-and-home-assistant/",
     "categories": "Home Assistant",
     "tags": "meta",
     "date": "2023-01-25 00:00:00 -0500",

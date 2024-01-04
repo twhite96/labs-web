@@ -2,4 +2,4 @@ User-agent: *
 
 Disallow: /norobots/
 
-Sitemap: https://tifflabs.org/sitemap.xml
+Sitemap: http://localhost:4004/sitemap.xml
