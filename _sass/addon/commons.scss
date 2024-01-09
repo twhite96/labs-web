@@ -1874,3 +1874,9 @@ $btn-mb: 0.5rem;
     }
   }
 } /* min-width: 1650px */
+
+
+::selection {
+  background-color: #FF0200;
+  color: white;
+}
