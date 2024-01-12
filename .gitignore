@@ -23,3 +23,5 @@ package-lock.json
 .frontmatter/database/
 
 _drafts/
+
+build.sh
