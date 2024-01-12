@@ -1,1 +1,200 @@
-<feed xmlns="http://www.w3.org/2005/Atom"> <id>https://tifflabs.org/</id><title>tiff labs</title><subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle> <updated>2024-01-04T01:29:13-05:00</updated> <author> <name>tiff</name> <uri>https://tifflabs.org/</uri> </author><link rel="self" type="application/atom+xml" href="https://tifflabs.org/feed.xml"/><link rel="alternate" type="text/html" hreflang="en" href="https://tifflabs.org/"/> <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator> <rights> © 2024 tiff </rights> <icon>/assets/img/favicons/favicon.ico</icon> <logo>/assets/img/favicons/favicon-96x96.png</logo> <entry><title>Building a Home Lab, Pt. 1</title><link href="https://tifflabs.org/posts/building-a-home-lab-pt.-1/" rel="alternate" type="text/html" title="Building a Home Lab, Pt. 1" /><published>2023-11-11T00:00:00-05:00</published> <updated>2024-01-02T02:23:37-05:00</updated> <id>https://tifflabs.org/posts/building-a-home-lab-pt.-1/</id> <content src="https://tifflabs.org/posts/building-a-home-lab-pt.-1/" /> <author> <name>tiff</name> </author> <category term="Home Lab" /> <summary> I’ve had one going for a while but today, it’s cleanup day. Some background… Home Assistant got me into DevOps. Don’t get me wrong, I was interested, but the more I read about Home Assistant and tinkered with it, the more When SysAdmins Ruled the Earth made sense1. So I went all in with my first rack, an Aeons 9U rack from Amazon… My friend had never done something like this, and while ... </summary> </entry> <entry><title>Migrating Devices to Separate Networks</title><link href="https://tifflabs.org/posts/migrating-devices-separate-networks/" rel="alternate" type="text/html" title="Migrating Devices to Separate Networks" /><published>2023-02-19T00:00:00-05:00</published> <updated>2023-12-20T15:56:24-05:00</updated> <id>https://tifflabs.org/posts/migrating-devices-separate-networks/</id> <content src="https://tifflabs.org/posts/migrating-devices-separate-networks/" /> <author> <name>tiff</name> </author> <category term="Networking" /> <summary> With my new UniFi Ap up and running, I plan on migrating my cameras to different networks I created in the UniFi controller. I am still learning about how to use a VLAN and how to set one up on my Ap. So far, I’ve got a nice overview of traffic coming through my network. I’ll be writing more soon. </summary> </entry> <entry><title>Slow and Dirty Dashboards</title><link href="https://tifflabs.org/posts/slow-and-dirty-dashboards/" rel="alternate" type="text/html" title="Slow and Dirty Dashboards" /><published>2023-01-25T00:00:00-05:00</published> <updated>2023-12-13T22:28:17-05:00</updated> <id>https://tifflabs.org/posts/slow-and-dirty-dashboards/</id> <content src="https://tifflabs.org/posts/slow-and-dirty-dashboards/" /> <author> <name>tiff</name> </author> <category term="Home Assistant" /> <summary> It’s been a minute, hasn’t it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward. The recession has hit us all hard, some more than others, as 10s of thousands of tech workers have been laid off. I feel lucky th... </summary> </entry> <entry><title>Curiosity and Home Assistant</title><link href="https://tifflabs.org/posts/curiosity-and-home-assistant/" rel="alternate" type="text/html" title="Curiosity and Home Assistant" /><published>2023-01-25T00:00:00-05:00</published> <updated>2023-12-20T15:56:24-05:00</updated> <id>https://tifflabs.org/posts/curiosity-and-home-assistant/</id> <content src="https://tifflabs.org/posts/curiosity-and-home-assistant/" /> <author> <name>tiff</name> </author> <category term="Home Assistant" /> <summary> A brief post here. Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my job and understanding the pipes that gird all the infrastructure I build apps on top of. It’s taken me a little under two years to feel comfortable with terms like: Proxmox NGINX NGINX Proxy ... </summary> </entry> </feed>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4000/</id>
+  <title>tiff labs</title>
+  <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
+  <updated>2024-01-09T18:45:45-05:00</updated>
+  <author>
+    <name>tiff</name>
+    <uri>http://localhost:4000/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <rights> © 2024 tiff </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>YouTube Channel Updates</title>
+    <link href="http://localhost:4000/posts/youtube-channel-updates/" rel="alternate" type="text/html" title="YouTube Channel Updates" />
+    <published>2024-01-02T02:01:43-05:00</published>
+  
+    <updated>2024-01-02T02:01:43-05:00</updated>
+  
+    <id>http://localhost:4000/posts/youtube-channel-updates/</id>
+    <content src="http://localhost:4000/posts/youtube-channel-updates/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="YouTube" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I’ve started to upload to my YouTube channel which may be shocking, I know.
+
+
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Playing with MQTT, ZWave JS UI, and Alarmo</title>
+    <link href="http://localhost:4000/posts/playing-mqtt-zwave-js-ui-alarmo/" rel="alternate" type="text/html" title="Playing with MQTT, ZWave JS UI, and Alarmo" />
+    <published>2024-01-02T02:01:11-05:00</published>
+  
+    <updated>2024-01-02T02:23:37-05:00</updated>
+  
+    <id>http://localhost:4000/posts/playing-mqtt-zwave-js-ui-alarmo/</id>
+    <content src="http://localhost:4000/posts/playing-mqtt-zwave-js-ui-alarmo/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>What You Can (Or Can't) Do When Renting</title>
+    <link href="http://localhost:4000/posts/renting/" rel="alternate" type="text/html" title="What You Can (Or Can&amp;apos;t) Do When Renting" />
+    <published>2024-01-02T02:01:11-05:00</published>
+  
+    <updated>2024-01-02T02:23:37-05:00</updated>
+  
+    <id>http://localhost:4000/posts/renting/</id>
+    <content src="http://localhost:4000/posts/renting/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What You Can (Or Can’t) Do When Renting
+
+Note: Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking any advice listed here.
+
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Using an old iPad as a Home Assistant wall kiosk</title>
+    <link href="http://localhost:4000/posts/ipad-home-assistant-wall-kiosk/" rel="alternate" type="text/html" title="Using an old iPad as a Home Assistant wall kiosk" />
+    <published>2024-01-02T02:01:11-05:00</published>
+  
+    <updated>2024-01-02T02:23:37-05:00</updated>
+  
+    <id>http://localhost:4000/posts/ipad-home-assistant-wall-kiosk/</id>
+    <content src="http://localhost:4000/posts/ipad-home-assistant-wall-kiosk/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Home Assistant" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Using an old iPad as a Home Assistant wall kiosk
+
+Wall kiosk.png
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Comparing DIY (and free) NVR Solutions</title>
+    <link href="http://localhost:4000/posts/comparing-diy-free-nvr-solutions/" rel="alternate" type="text/html" title="Comparing DIY (and free) NVR Solutions" />
+    <published>2024-01-02T02:01:07-05:00</published>
+  
+    <updated>2024-01-02T02:01:07-05:00</updated>
+  
+    <id>http://localhost:4000/posts/comparing-diy-free-nvr-solutions/</id>
+    <content src="http://localhost:4000/posts/comparing-diy-free-nvr-solutions/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

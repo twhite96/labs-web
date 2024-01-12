@@ -2,6 +2,8 @@
 title: Slow and Dirty Dashboards
 author: tiff
 date: 2023-01-25
+description: Dashboards are like crack to home lab nerds.
+excerpt: Dashboards are like crack to home lab nerds.
 categories: [Home Assistant]
 tags: [dashboard]
 pin: true
