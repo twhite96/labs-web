@@ -4,7 +4,7 @@
   <id>http://localhost:4004/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2024-02-10T00:58:42-05:00</updated>
+  <updated>2024-02-10T01:05:35-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://localhost:4004/</uri>
@@ -17,41 +17,6 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>New Year, New Rack</title>
-    <link href="http://localhost:4004/posts/new-year-new-rack/" rel="alternate" type="text/html" title="New Year, New Rack" />
-    <published>2024-02-09T00:00:00-05:00</published>
-  
-    <updated>2024-02-09T00:00:00-05:00</updated>
-  
-    <id>http://localhost:4004/posts/new-year-new-rack/</id>
-    <content src="http://localhost:4004/posts/new-year-new-rack/" />
-    <author>
-      <name>tiff</name>
-    </author>
-
-  
-    
-    <category term="Homelab" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      
-
-    </summary>
-  
-
-  </entry>
 
   
   <entry>
@@ -144,7 +109,7 @@ My friend had never done something like this, and while ...
     <link href="http://localhost:4004/posts/migrating-devices-separate-networks/" rel="alternate" type="text/html" title="Migrating Devices to Separate Networks" />
     <published>2023-02-19T00:00:00-05:00</published>
   
-    <updated>2023-12-20T15:56:24-05:00</updated>
+    <updated>2024-02-10T00:59:50-05:00</updated>
   
     <id>http://localhost:4004/posts/migrating-devices-separate-networks/</id>
     <content src="http://localhost:4004/posts/migrating-devices-separate-networks/" />
@@ -189,7 +154,7 @@ I’ll be writing more soon.
     <link href="http://localhost:4004/posts/slow-and-dirty-dashboards/" rel="alternate" type="text/html" title="Slow and Dirty Dashboards" />
     <published>2023-01-25T00:00:00-05:00</published>
   
-    <updated>2024-01-12T00:25:59-05:00</updated>
+    <updated>2024-02-10T00:59:50-05:00</updated>
   
     <id>http://localhost:4004/posts/slow-and-dirty-dashboards/</id>
     <content src="http://localhost:4004/posts/slow-and-dirty-dashboards/" />
@@ -216,6 +181,51 @@ I’ll be writing more soon.
 
 
 The recession has hit us all hard, some more than others, as 10s of thousands of tech workers have been laid off. I feel lucky th...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Curiosity and Home Assistant</title>
+    <link href="http://localhost:4004/posts/curiosity-and-home-assistant/" rel="alternate" type="text/html" title="Curiosity and Home Assistant" />
+    <published>2023-01-25T00:00:00-05:00</published>
+  
+    <updated>2023-12-20T15:56:24-05:00</updated>
+  
+    <id>http://localhost:4004/posts/curiosity-and-home-assistant/</id>
+    <content src="http://localhost:4004/posts/curiosity-and-home-assistant/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Home Assistant" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A brief post here.
+
+
+
+Getting into Home Assistant has been the best thing to happen to me in a long time. It has not only been fun, but as a software engineer by trade, it has made me better at my job and understanding the pipes that gird all the infrastructure I build apps on top of.
+
+It’s taken me a little under two years to feel comfortable with terms like:
+
+
+  Proxmox
+  NGINX
+  NGINX Proxy ...
     </summary>
   
 
