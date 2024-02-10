@@ -1,6 +1,11 @@
-@custom-media --breakpoint (width < 768px);
-
-.littlefoot {
+<!-- Littlfoot Footnotes -->
+<script src="https://unpkg.com/littlefoot/dist/littlefoot.js"></script>
+<script type="application/javascript">
+  littlefoot.default()
+</script>
+<style>
+  @custom-media --breakpoint (width < 768px);
+  .littlefoot sup {
   --button-background-color: #949494;
   --button-text-color: #fff;
   --button-active-background-color: #3f3f3f;
@@ -26,11 +31,10 @@
   --popover-width: 22em;
   --popover-scroll-indicator-color: #3f3f3f;
   --popover-tooltip-size: 0.5rem;
-
   position: relative;
 }
 
-.littlefoot__button {
+.littlefoot__button sup {
   background-color: var(--button-background-color);
   border-radius: var(--button-border-radius);
   border: var(--button-border, 0);
@@ -45,22 +49,22 @@
   text-decoration: none;
   transition: var(--button-transition);
   vertical-align: middle;
-
-  &:hover,
-  &:focus,
-  &:active,
-  &.is-active {
-    background-color: var(--button-active-background-color);
-    color: var(--button-active-text-color);
-  }
-
-  & svg {
-    float: left;
-    height: 0.3rem;
-  }
 }
 
-.littlefoot__popover {
+.littlefoot__button:hover,
+.littlefoot__button:focus,
+.littlefoot__button:active,
+.littlefoot__button.is-active sup {
+  background-color: var(--button-active-background-color);
+  color: var(--button-active-text-color);
+}
+
+.littlefoot__button svg {
+  float: left;
+  height: 0.3rem;
+}
+
+.littlefoot__popover sup {
   border: var(--popover-border);
   border-radius: var(--popover-border-radius);
   box-shadow: var(--popover-shadow);
@@ -73,24 +77,24 @@
   transition: var(--popover-transition);
   width: var(--popover-width);
   z-index: 1;
-
-  &.is-above {
-    bottom: 0;
-    top: auto;
-  }
-
-  &.is-active {
-    transform: var(--popover-active-transform);
-  }
 }
 
-.littlefoot__wrapper {
+.littlefoot__popover.is-above sup {
+  bottom: 0;
+  top: auto;
+}
+
+.littlefoot__popover.is-active sup {
+  transform: var(--popover-active-transform);
+}
+
+.littlefoot__wrapper sup {
   border-radius: var(--popover-border-radius);
   position: relative;
   z-index: 1;
 }
 
-.littlefoot__content {
+.littlefoot__content sup {
   -webkit-overflow-scrolling: touch;
   background-color: var(--popover-background-color);
   border-radius: var(--popover-border-radius);
@@ -105,42 +109,36 @@
   overflow: auto;
   padding: var(--popover-vertical-padding) var(--popover-horizontal-padding);
   width: 100%;
-
-  & img {
-    max-width: 100%;
-  }
-
-  &:focus {
-    outline: none;
-  }
 }
 
-.is-scrollable {
-  --arrow-x: calc(-1 * var(--popover-horizontal-padding));
-  --arrow-y: calc(var(--popover-vertical-padding) / 2);
-
-  & .littlefoot__content::after {
-    bottom: 0;
-    color: var(--popover-scroll-indicator-color);
-    content: '\21E3';
-    display: block;
-    left: 0;
-    opacity: 1;
-    position: sticky;
-    text-align: center;
-    transform: translateX(var(--arrow-x)) translateY(var(--arrow-y));
-    transition: var(--popover-transition);
-    width: var(--popover-horizontal-padding);
-  }
-
-  &.is-fully-scrolled .littlefoot__content::after {
-    opacity: 0;
-  }
+.littlefoot__content img sup {
+  max-width: 100%;
 }
 
-.littlefoot__tooltip {
+.littlefoot__content:focus sup {
+  outline: none;
+}
+
+.is-scrollable .littlefoot__content::after sup {
+  bottom: 0;
+  color: var(--popover-scroll-indicator-color);
+  content: '\21E3';
+  display: block;
+  left: 0;
+  opacity: 1;
+  position: sticky;
+  text-align: center;
+  transform: translateX(calc(-1 * var(--popover-horizontal-padding))) translateY(calc(var(--popover-vertical-padding) / 2));
+  transition: var(--popover-transition);
+  width: var(--popover-horizontal-padding);
+}
+
+.is-scrollable.is-fully-scrolled .littlefoot__content::after sup {
+  opacity: 0;
+}
+
+.littlefoot__tooltip sup {
   --tooltip-margin: calc(-1 * var(--popover-tooltip-size));
-
   background-color: var(--popover-background-color);
   border: var(--popover-border);
   box-shadow: var(--popover-shadow);
@@ -151,16 +149,16 @@
   width: calc(2 * var(--popover-tooltip-size));
 }
 
-.is-below .littlefoot__tooltip {
+.is-below .littlefoot__tooltip sup {
   top: var(--tooltip-margin);
 }
 
-.is-above .littlefoot__tooltip {
+.is-above .littlefoot__tooltip sup {
   bottom: var(--tooltip-margin);
 }
 
 @media (--breakpoint) {
-  .littlefoot__popover {
+  .littlefoot__popover sup {
     border-radius: 0;
     border-width: 1px 0 0;
     inset: auto 0 0 !important;
@@ -169,32 +167,44 @@
     position: fixed;
     transform: translateY(100%);
     width: 100%;
-
-    &.is-active {
-      transform: translateY(0);
-    }
   }
 
-  .littlefoot__wrapper {
+  .littlefoot__popover.is-active sup {
+    transform: translateY(0);
+  }
+
+  .littlefoot__wrappersup sup {
     border-radius: 0;
     max-width: 100% !important;
     transform: none;
   }
 
-  .littlefoot__tooltip {
+  .littlefoot__tooltip sup {
     display: none;
   }
-}
+} 
 
 @media not print {
-  .littlefoot--print {
+  .littlefoot--print sup {
     display: none;
   }
 }
 
 @media print {
   .littlefoot__popover,
-  .littlefoot__button {
+  .littlefoot__button sup {
     display: none;
   }
 }
+
+</style>
+
+<button class="littlefoot__button" id="<% reference %>" title="See Footnote <% number %>">
+  <svg role="img" aria-labelledby="title-<% reference %>" viewbox="0 0 31 6" preserveAspectRatio="xMidYMid">
+    <title id="title-<% reference %>">Footnote <% number %>
+    </title>
+    <circle r="3" cx="3" cy="3" fill="white"></circle>
+    <circle r="3" cx="15" cy="3" fill="white"></circle>
+    <circle r="3" cx="27" cy="3" fill="white"></circle>
+  </svg>
+</button>

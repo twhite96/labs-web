@@ -1,6 +1,7 @@
 ---
 title: Migrating Devices to Separate Networks
-description: VLANs are one way to separate IoT devices from your main network
+description: VLANs are one way to separate IoT devices from your main network.
+excerpt: VLANs are one way to separate IoT devices from your main network.
 tags: [meta]
 categories: [Networking]
 author: tiff

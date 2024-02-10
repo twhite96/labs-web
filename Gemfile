@@ -4,6 +4,9 @@ source "https://rubygems.org"
 
 gemspec
 
+gem 'octopress-littlefoot'
+# gem 'asset_path_tag'
+
 group :test do
   gem "html-proofer", "~> 3.18"
 end

@@ -6,7 +6,6 @@ description: Dashboards are like crack to home lab nerds.
 excerpt: Dashboards are like crack to home lab nerds.
 categories: [Home Assistant]
 tags: [dashboard]
-pin: true
 ---
 
 > It's been a minute, hasn't it? I was busy at work, the startup life continuing to cause burnout for me, and the following tech crash meant that I would not be working for a few months as I tried to pick up the pieces of what remained of my work and move forward.

@@ -121,6 +121,9 @@ Plausible:
     domain: 'tifflabs.org'   # The domain configured in plausible
     source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
 
+gems:
+  - octopress-littlefoot
+
 # ------------ The following options are not recommended to be modified ------------------
 
 kramdown:

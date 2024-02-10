@@ -10,7 +10,7 @@
     name="viewport"
     content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
   >
-
+  <!-- <script src="../assets/js/dist/littlefoot.js"></script> -->
   {% capture seo_tags %}
     {% seo title=false %}
   {% endcapture %}
@@ -69,6 +69,7 @@
 
   <!-- Bootstrap -->
   <link rel="stylesheet" href="{{ site.data.origin[type].bootstrap.css | relative_url}}">
+  <link rel="stylesheet" href="/assets/css/littlefoot.css">
 
   <!-- Font Awesome -->
   <link rel="stylesheet" href="{{ site.data.origin[type].fontawesome.css | relative_url }}">
@@ -78,18 +79,6 @@
 
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
-  <!-- Bigfoot Footnotes -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot-default.min.css"
-    integrity="sha512-HUJ1uYzddtxPAmDkk66inJx2UkG1aAWMwabCsKVsVfs2w2ko2YJP2gRdlerTjKzKWfwzrsB+0uPZnKfO4bU/TQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"
-    integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/bigfoot/2.1.4/bigfoot.min.js"
-    integrity="sha512-OQfYbLWwdJsEiJc+/zEyY6EF6VcHHRy/2vLTweF+iIwmfHpJFau6lpAxywKyrl28Ui5/LaxGVu0i7WecihYIQg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   
   {% if site.toc and page.toc %}
     <link rel="stylesheet" href="{{ site.data.origin[type].toc.css | relative_url }}">
@@ -99,12 +88,13 @@
     <!-- Manific Popup -->
     <link rel="stylesheet" href="{{ site.data.origin[type].magnific-popup.css | relative_url }}">
   {% endif %}
-
+  
   <!-- JavaScript -->
 
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}
-
+  
+  {% include littlefoot.html %}
   {% include metadata-hook.html %}
 </head>
