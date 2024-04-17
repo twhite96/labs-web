@@ -77,7 +77,7 @@ theme_mode: # [light|dark]
 img_cdn: "https://res.cloudinary.com/"
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "twhiteblog/image/upload/r_max/v1674171747/factoryofsadness_neon_background_portrait_81ad677b-151c-4ef9-8cb0-d1fccd9a5e1c_cklgdp.webp"
+avatar: "dnq1cp8ev/image/upload/v1704132542/Cat_with_headlamp_portrait_svysjj.jpg"
 
 # boolean type, the global switch for TOC in posts.
 toc: true

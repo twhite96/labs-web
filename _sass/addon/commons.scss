@@ -271,43 +271,43 @@ i {
 
   
 
-// .footnotes > ol {
-//   padding-left: 2rem;
-//   margin-top: 0.5rem;
+.footnotes > ol {
+  padding-left: 2rem;
+  margin-top: 0.5rem;
 
-//   > li {
-//     &:not(:last-child) {
-//       margin-bottom: 0.3rem;
-//     }
+  > li {
+    &:not(:last-child) {
+      margin-bottom: 0.3rem;
+    }
 
-//     > p {
-//       margin-left: 0.25em;
-//       margin-top: 0;
-//       margin-bottom: 0;
-//     }
-//   }
-// }
+    > p {
+      margin-left: 0.25em;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+  }
+}
 
-// .footnote {
-//   @at-root a#{&} {
-//     @include ml-mr(1px);
-//     @include pl-pr(2px);
+.footnote {
+  @at-root a#{&} {
+    @include ml-mr(1px);
+    @include pl-pr(2px);
 
-//     border-bottom-style: none !important;
-//     transition: background-color 1.5s ease-in-out;
-//   }
-// }
+    border-bottom-style: none !important;
+    transition: background-color 1.5s ease-in-out;
+  }
+}
 
-// .reversefootnote {
-//   @at-root a#{&} {
-//     font-size: 0.6rem;
-//     line-height: 1;
-//     position: relative;
-//     bottom: 0.25em;
-//     margin-left: 0.25em;
-//     border-bottom-style: none !important;
-//   }
-// }
+.reversefootnote {
+  @at-root a#{&} {
+    font-size: 0.6rem;
+    line-height: 1;
+    position: relative;
+    bottom: 0.25em;
+    margin-left: 0.25em;
+    border-bottom-style: none !important;
+  }
+}
 
 /* --- Begin of Markdown table style --- */
 
@@ -1586,3 +1586,4 @@ $btn-mb: 0.5rem;
   background-color: #FF0200;
   color: white;
 }
+

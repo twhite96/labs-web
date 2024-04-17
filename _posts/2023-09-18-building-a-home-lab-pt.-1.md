@@ -7,7 +7,7 @@ excerpt: I've had one going for a while but today, it's cleanup day.
 author: tiff
 pin: true
 tags: [meta]
-categories: [Home Lab]
+categories: [Homelab]
 ---
 
 

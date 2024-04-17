@@ -39,7 +39,16 @@
   }
 }
 
-a.tag > span:hover {
+.towhite:hover {
   background-color: #fd250d !important;
   color: white !important;
+}
+
+
+
+#access-lastmod a:hover {
+  color: white !important;
+  padding: 6px;
+  border-radius: 8px;
+  transition: color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 }

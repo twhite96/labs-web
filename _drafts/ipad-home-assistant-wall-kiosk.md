@@ -8,6 +8,4 @@ categories: [Home Assistant]
 ---
 
 
-Using an old iPad as a Home Assistant wall kiosk
-
-Wall kiosk.png
+Using an old iPad as a Home Assistant wall kiosk.

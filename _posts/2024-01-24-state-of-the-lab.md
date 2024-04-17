@@ -5,7 +5,7 @@ author: tiff
 preview: Expanding the lab in 2024.
 excerpt: Expanding the lab in 2024
 tags: [meta]
-category: [Home Lab]
+category: [Homelab]
 pin: true
 ---
 

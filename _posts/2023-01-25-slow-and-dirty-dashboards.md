@@ -4,7 +4,7 @@ author: tiff
 date: 2023-01-25
 description: Dashboards are like crack to home lab nerds.
 excerpt: Dashboards are like crack to home lab nerds.
-categories: [Home Assistant]
+categories: [Home Assistant, Dashboards]
 tags: [dashboard]
 ---
 
