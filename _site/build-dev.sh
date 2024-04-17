@@ -1,0 +1,1 @@
+JEKYLL_ENV=development bundle exec jekyll serve --livereload --open-url --future --drafts --port 4004
