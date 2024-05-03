@@ -16,7 +16,7 @@
   url:  'https://fosstodon.org/@tiff'
 
 - type: linkedin
-  icon: 'fa fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  icon: 'fa-brands fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/tiff0x8c'
 
 # - type: threads
