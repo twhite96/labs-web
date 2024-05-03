@@ -2,7 +2,7 @@
 
 # Put posts in the correct directory
 
-directory="_posts"
+directory="./_posts"
 
 # Prompt the user for the frontmatter
 read -p "Enter the file title: " file_title
