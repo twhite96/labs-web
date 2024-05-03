@@ -16,12 +16,12 @@
   url:  'https://fosstodon.org/@tiff'
 
 - type: linkedin
-  icon: 'fa-brands fa-linkedin'   # icons powered by <https://fontawesome.com/>
+  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.linkedin.com/in/tiff0x8c'
 
-# - type: threads
-#   icon: 'fa-brands fa-threads'   
-#   url:  'https://www.threads.net/@_tifflabs'
+- type: threads
+  icon: 'fab fa-threads'   
+  url:  'https://www.threads.net/@_tifflabs'
 
 - type: instagram
   icon: 'fa fa-instagram'   # icons powered by <https://fontawesome.com/>
