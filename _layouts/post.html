@@ -112,7 +112,13 @@ tail_includes:
       {% endfor %}
   </div>
   {% endif %}
+    <br>
+    <div class="post-tail-bottom">
+      <div class="license-wrapper">
 
+        {{ site.data.locales[lang].affiliate.disclosure }}
+      </div>
+    </div>
   <div class="post-tail-bottom
     d-flex justify-content-between align-items-center mt-3 pt-5 pb-2">
     <div class="license-wrapper">
@@ -129,6 +135,9 @@ tail_includes:
 
       {% endif %}
     </div>
+
+    <br>
+    <br>
     {% include post-sharing.html lang=lang %}
 
   </div><!-- .post-tail-bottom -->
