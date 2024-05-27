@@ -4,7 +4,7 @@ source "https://rubygems.org"
 
 gemspec
 
-gem 'octopress-littlefoot'
+gem 'jekyll-compose', group: [:jekyll_plugins]
 # gem 'asset_path_tag'
 
 group :test do
