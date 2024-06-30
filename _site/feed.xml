@@ -1,1 +1,217 @@
-<feed xmlns="http://www.w3.org/2005/Atom"> <id>https://tifflabs.org/</id><title>tiff labs</title><subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle> <updated>2024-05-26T20:27:47-04:00</updated> <author> <name>tiff</name> <uri>https://tifflabs.org/</uri> </author><link rel="self" type="application/atom+xml" href="https://tifflabs.org/feed.xml"/><link rel="alternate" type="text/html" hreflang="en" href="https://tifflabs.org/"/> <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator> <rights> © 2024 tiff </rights> <icon>/assets/img/favicons/favicon.ico</icon> <logo>/assets/img/favicons/favicon-96x96.png</logo> <entry><title>Heads Up</title><link href="https://tifflabs.org/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" /><published>2024-05-26T00:00:00-04:00</published> <updated>2024-05-26T00:00:00-04:00</updated> <id>https://tifflabs.org/posts/heads-up/</id> <content src="https://tifflabs.org/posts/heads-up/" /> <author> <name>tiff</name> </author> <summary> I am still around! I am working on a loadout post for a Toolsday entry I started on literally this past Tuesday but taking and editing the photos has taken some time. I’ve also started using Amazon Affiliate Links, which you can find the disclosure about on the tab sidebar. I use non-invasive analytics with GoatCounter. However I have no issue with you blocking any analytics or affiliate l... </summary> </entry> <entry><title>DeWALT Tool Bag Loadout</title><link href="https://tifflabs.org/posts/dewalt-bag-loadout/" rel="alternate" type="text/html" title="DeWALT Tool Bag Loadout" /><published>2024-05-22T00:00:00-04:00</published> <updated>2024-05-22T00:00:00-04:00</updated> <id>https://tifflabs.org/posts/dewalt-bag-loadout/</id> <content src="https://tifflabs.org/posts/dewalt-bag-loadout/" /> <author> <name>tiff</name> </author> <category term="DIY" /> <category term="Toolsday" /> <summary> Klein Tools 32561 Multi-Bit Screwdriver - Amazon (Affiliate Link) Klein Tools 32304 Screwdriver, 14-in-1 Adjustable Screwdriver with Flip Socket, HVAC Nut Drivers and Bits, Impact Rated - Amazon (Affiliate Link) Klein Tools 32500 11-in-1 Screwdriver / Nut Driver Set, 8 Bits - Amazon (Affiliate Link) Klein Tools 11061 Self-Adjusting Wire Stripper / Cutter, Heavy Duty - Amazon (Affiliate Link) </summary> </entry> <entry><title>Beelink Mini 12 Pro Proxmox Cluster Deployment</title><link href="https://tifflabs.org/posts/beelink-proxmox-deployment/" rel="alternate" type="text/html" title="Beelink Mini 12 Pro Proxmox Cluster Deployment" /><published>2024-05-17T00:00:00-04:00</published> <updated>2024-05-17T00:00:00-04:00</updated> <id>https://tifflabs.org/posts/beelink-proxmox-deployment/</id> <content src="https://tifflabs.org/posts/beelink-proxmox-deployment/" /> <author> <name>tiff</name> </author> <category term="Homelab" /> <summary> Beelink Mini S12 Pro - Amazon (Affliate Link) Beelink Mini N95 - Amazon (Affliate Link) </summary> </entry> <entry><title>Toolsday</title><link href="https://tifflabs.org/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" /><published>2024-04-10T00:00:00-04:00</published> <updated>2024-04-10T00:00:00-04:00</updated> <id>https://tifflabs.org/posts/toolsday-posts/</id> <content src="https://tifflabs.org/posts/toolsday-posts/" /> <author> <name>tiff</name> </author> <category term="DIY" /> <category term="Toolsday" /> <summary> I am a big time sucker for gadgets of all types and that includes power and manual tools. Every Tuesday1 will be Toolsday where I highlight a particular YouTube channel, tool, or tool haul2 on the blog. Sometimes I may even do a demonstration or review of a tool I’ve had or picked up recently. I love tools and I’ve been going balls deep into Tool and DIY YouTube these past two months. Toolsda... </summary> </entry> <entry><title>Moving Proxmox to New Subnet</title><link href="https://tifflabs.org/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" /><published>2024-04-05T22:40:00-04:00</published> <updated>2024-04-05T22:40:00-04:00</updated> <id>https://tifflabs.org/posts/moving-proxmox/</id> <content src="https://tifflabs.org/posts/moving-proxmox/" /> <author> <name>tiff</name> </author> <category term="Homelab" /> <category term="Proxmox" /> <summary> I’ve been wanting to get my Proxmox cluster plugged into my UDM Pro for at least a year now. A few issues were: Accessing the cluster from a different subnet Updating the IP address of each node in the cluster Keeping old LXC containers and VMs in tact Keeping HDD and SSD mountpoints in tact Wait. Why? You may be asking, “tiff, why move the cluster at all?” This is a fair thing to ... </summary> </entry> </feed>
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>http://localhost:4004/</id>
+  <title>tiff labs</title>
+  <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
+  <updated>2024-06-29T21:04:20-04:00</updated>
+  <author>
+    <name>tiff</name>
+    <uri>http://localhost:4004/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4004/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="en"
+    href="http://localhost:4004/"/>
+  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
+  <rights> © 2024 tiff </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Creating a Disk Partition on Proxmox with gdisk</title>
+    <link href="http://localhost:4004/posts/creating-a-disk-partition-on-proxmox-with-gdisk/" rel="alternate" type="text/html" title="Creating a Disk Partition on Proxmox with gdisk" />
+    <published>2024-05-29T00:00:00-04:00</published>
+  
+    <updated>2024-05-29T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4004/posts/creating-a-disk-partition-on-proxmox-with-gdisk/</id>
+    <content src="http://localhost:4004/posts/creating-a-disk-partition-on-proxmox-with-gdisk/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+    <category term="Linux" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Scenario
+
+I have been struggling for months now with understanding how to use a 6 TB hard drive as media storage for my LXCs and VMs.
+
+The short of the problem, as far as LXCs are concerned, there’s no way to passthrough a device cleanly to an LXC without making the container a privileged container. Privileged containers open up a whole host of problems with the security of the container and it...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Heads Up</title>
+    <link href="http://localhost:4004/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
+    <published>2024-05-26T00:00:00-04:00</published>
+  
+    <updated>2024-05-26T20:53:48-04:00</updated>
+  
+    <id>http://localhost:4004/posts/heads-up/</id>
+    <content src="http://localhost:4004/posts/heads-up/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      I am still around! I am working on a loadout post for a Toolsday entry I started on literally this past Tuesday but taking and editing the photos has taken some time.
+
+I’ve also started using Amazon Affiliate Links, which you can find the disclosure about on the tab sidebar.
+
+
+  I use non-invasive analytics with GoatCounter. However I have no issue with you blocking any analytics or affiliate l...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Klein Precision Driver vs iFixit Pro Kit</title>
+    <link href="http://localhost:4004/posts/klein-precision-driver-vs-ifixit-pro-kit/" rel="alternate" type="text/html" title="Klein Precision Driver vs iFixit Pro Kit" />
+    <published>2024-05-24T00:00:00-04:00</published>
+  
+    <updated>2024-05-24T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4004/posts/klein-precision-driver-vs-ifixit-pro-kit/</id>
+    <content src="http://localhost:4004/posts/klein-precision-driver-vs-ifixit-pro-kit/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="DIY" />
+    
+    <category term="Toolsday" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>DeWALT Tool Bag Loadout</title>
+    <link href="http://localhost:4004/posts/dewalt-bag-loadout/" rel="alternate" type="text/html" title="DeWALT Tool Bag Loadout" />
+    <published>2024-05-22T00:00:00-04:00</published>
+  
+    <updated>2024-05-22T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4004/posts/dewalt-bag-loadout/</id>
+    <content src="http://localhost:4004/posts/dewalt-bag-loadout/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="DIY" />
+    
+    <category term="Toolsday" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Klein Tools 32561 Multi-Bit Screwdriver - Amazon (Affiliate Link)
+
+Klein Tools 32304 Screwdriver, 14-in-1 Adjustable Screwdriver with Flip Socket, HVAC Nut Drivers and Bits, Impact Rated - Amazon (Affiliate Link)
+
+Klein Tools 32500 11-in-1 Screwdriver / Nut Driver Set, 8 Bits - Amazon (Affiliate Link)
+
+Klein Tools 11061 Self-Adjusting Wire Stripper / Cutter, Heavy Duty - Amazon (Affiliate Link)
+
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Reolink E1 Indoor vs Eufy Pan &amp; Tilt Cam</title>
+    <link href="http://localhost:4004/posts/reolink-e1-vs-eufy-2k/" rel="alternate" type="text/html" title="Reolink E1 Indoor vs Eufy Pan &amp;amp; Tilt Cam" />
+    <published>2024-05-17T00:00:00-04:00</published>
+  
+    <updated>2024-05-17T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4004/posts/reolink-e1-vs-eufy-2k/</id>
+    <content src="http://localhost:4004/posts/reolink-e1-vs-eufy-2k/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Home Assistant" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      eufy Security Indoor Cam E220 - Amazon (Affiliate Link)
+
+Reolink E1 Indoor 2K Camera - Amazon (Affliliate Link)
+
+    </summary>
+  
+
+  </entry>
+
+</feed>
+
+

@@ -15,9 +15,9 @@
   icon: 'fa fa-mastodon'   # icons powered by <https://fontawesome.com/>
   url:  'https://fosstodon.org/@tiff'
 
-- type: linkedin
-  icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
-  url:  'https://www.linkedin.com/in/tiff0x8c'
+# - type: linkedin
+#   icon: 'fab fa-linkedin'   # icons powered by <https://fontawesome.com/>
+#   url:  'https://www.linkedin.com/in/tiff0x8c'
 
 - type: threads
   icon: 'fab fa-threads'   
@@ -29,7 +29,7 @@
 - type: youtube
   icon: 'fa fa-youtube'   # icons powered by <https://fontawesome.com/>
   url:  'https://www.youtube.com/@tifflabs'                  # Fill with your Linkedin homepage
-#
-# - type: buymeacoffee
-#   icon: 'fa fa-buymeacoffee'
-#   url:  'https://www.buymeacoffee.com/tifflabs'
+# #
+- type: buymeacoffee
+  icon: 'fa fa-buymeacoffee'
+  url:  'https://www.buymeacoffee.com/tifflabs'
