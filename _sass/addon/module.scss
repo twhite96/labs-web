@@ -61,6 +61,7 @@
   text-decoration: none;
 }
 
+
 %link-color {
   color: var(--link-color);
 }
@@ -170,7 +171,16 @@
 @mixin prompt($type, $fa-content, $fa-style: 'solid') {
   &.prompt-#{$type} {
     background-color: var(--prompt-#{$type}-bg);
-
+    a:link {
+      color: var(--prompt-#{$type}-icon-color);
+      &a:link {
+        background-color: var(--prompt-#{$type}-bg);
+      }
+    }
+    &::selection{
+      background-color: var(--prompt-#{$type}-icon-color);
+      color: white;
+    }
     &::before {
       content: $fa-content;
       color: var(--prompt-#{$type}-icon-color);
@@ -183,6 +193,8 @@
   background-color: #fd250d !important;
   color: white !important;
 }
+
+
 
 #page-category a {
   background-color: #fd250d !important;

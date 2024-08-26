@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>https://tifflabs.org/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2024-08-21T06:02:21-04:00</updated>
+  <updated>2024-08-26T02:59:05-04:00</updated>
   <author>
     <name>tiff</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>https://tifflabs.org/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://tifflabs.org/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="https://tifflabs.org/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
   <rights> © 2024 tiff </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>Loadouts and High Fives</title>
-    <link href="http://localhost:4000/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
-    <published>2024-08-20T00:00:00-04:00</published>
+    <link href="https://tifflabs.org/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
+    <published>2024-08-26T00:00:00-04:00</published>
   
-    <updated>2024-08-20T00:00:00-04:00</updated>
+    <updated>2024-08-26T00:00:00-04:00</updated>
   
-    <id>http://localhost:4000/posts/loadouts-and-high-fives/</id>
-    <content src="http://localhost:4000/posts/loadouts-and-high-fives/" />
+    <id>https://tifflabs.org/posts/loadouts-and-high-fives/</id>
+    <content src="https://tifflabs.org/posts/loadouts-and-high-fives/" />
     <author>
       <name>tiff</name>
     </author>
@@ -48,86 +48,13 @@
 
 
 
-      I love tools. There is no getting around that fact. When you’re building a PC or adding roll out shelves to your server rack good tools are important.
-
-For years I got by using cheap tools from Dollar Tree or random tools I found laying around the places I lived or that my partner found and gave me1. Never in my wildest dreams did I know that investing in good tools makes a world of difference....
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Selfhosted Services I'm Currently Using</title>
-    <link href="http://localhost:4000/posts/selfhosted-services-i-m-currently-using/" rel="alternate" type="text/html" title="Selfhosted Services I&amp;apos;m Currently Using" />
-    <published>2024-08-20T00:00:00-04:00</published>
-  
-    <updated>2024-08-20T00:00:00-04:00</updated>
-  
-    <id>http://localhost:4000/posts/selfhosted-services-i-m-currently-using/</id>
-    <content src="http://localhost:4000/posts/selfhosted-services-i-m-currently-using/" />
-    <author>
-      <name>tiff</name>
-    </author>
-
-  
-    
-    <category term="Homelab" />
-    
-    <category term="Services" />
-    
-  
-
-  
-    <summary>
       
+  Affiliate links are at the bottom of the post in case you want to pick something up, at no extra cost to you. You can read my affiliate disclosure if you’re interested.
 
 
+I love tools. There is no getting around that fact. When you’re building a PC or adding roll out shelves to your server rack good tools are important.
 
-
-
-      
-
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Creating a Disk Partition on Proxmox with gdisk</title>
-    <link href="http://localhost:4000/posts/creating-a-disk-partition-on-proxmox-with-gdisk/" rel="alternate" type="text/html" title="Creating a Disk Partition on Proxmox with gdisk" />
-    <published>2024-05-29T00:00:00-04:00</published>
-  
-    <updated>2024-05-29T00:00:00-04:00</updated>
-  
-    <id>http://localhost:4000/posts/creating-a-disk-partition-on-proxmox-with-gdisk/</id>
-    <content src="http://localhost:4000/posts/creating-a-disk-partition-on-proxmox-with-gdisk/" />
-    <author>
-      <name>tiff</name>
-    </author>
-
-  
-    
-    <category term="Homelab" />
-    
-    <category term="Linux" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Scenario
-
-I have been struggling for months now with understanding how to use a 6 TB hard drive as media storage for my LXCs and VMs.
-
-The short of the problem, as far as LXCs are concerned, there’s no way to passthrough a device cleanly to an LXC without making the container a privileged container. Privileged containers open up a whole host of problems with the security of the container and it...
+For years I got by using cheap tools from Dollar Tree or random tools I...
     </summary>
   
 
@@ -136,13 +63,13 @@ The short of the problem, as far as LXCs are concerned, there’s no way to pass
   
   <entry>
     <title>Heads Up</title>
-    <link href="http://localhost:4000/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
+    <link href="https://tifflabs.org/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
     <published>2024-05-26T00:00:00-04:00</published>
   
     <updated>2024-05-26T20:53:48-04:00</updated>
   
-    <id>http://localhost:4000/posts/heads-up/</id>
-    <content src="http://localhost:4000/posts/heads-up/" />
+    <id>https://tifflabs.org/posts/heads-up/</id>
+    <content src="https://tifflabs.org/posts/heads-up/" />
     <author>
       <name>tiff</name>
     </author>
@@ -172,14 +99,14 @@ I’ve also started using Amazon Affiliate Links, which you can find the disclos
 
   
   <entry>
-    <title>Klein Precision Driver vs iFixit Pro Kit</title>
-    <link href="http://localhost:4000/posts/klein-precision-driver-vs-ifixit-pro-kit/" rel="alternate" type="text/html" title="Klein Precision Driver vs iFixit Pro Kit" />
-    <published>2024-05-24T00:00:00-04:00</published>
+    <title>Toolsday</title>
+    <link href="https://tifflabs.org/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
+    <published>2024-04-10T00:00:00-04:00</published>
   
-    <updated>2024-05-24T00:00:00-04:00</updated>
+    <updated>2024-04-10T00:00:00-04:00</updated>
   
-    <id>http://localhost:4000/posts/klein-precision-driver-vs-ifixit-pro-kit/</id>
-    <content src="http://localhost:4000/posts/klein-precision-driver-vs-ifixit-pro-kit/" />
+    <id>https://tifflabs.org/posts/toolsday-posts/</id>
+    <content src="https://tifflabs.org/posts/toolsday-posts/" />
     <author>
       <name>tiff</name>
     </author>
@@ -200,8 +127,96 @@ I’ve also started using Amazon Affiliate Links, which you can find the disclos
 
 
 
+      I am a big time sucker for gadgets of all types and that includes power and manual tools.
+
+Every Tuesday1 will be Toolsday where I highlight a particular YouTube channel, tool, or tool haul2 on the blog. Sometimes I may even do a demonstration or review of a tool I’ve had or picked up recently.
+
+I love tools and I’ve been going balls deep into Tool and DIY YouTube these past two months. Toolsda...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Moving Proxmox to New Subnet</title>
+    <link href="https://tifflabs.org/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
+    <published>2024-04-05T22:40:00-04:00</published>
+  
+    <updated>2024-04-05T22:40:00-04:00</updated>
+  
+    <id>https://tifflabs.org/posts/moving-proxmox/</id>
+    <content src="https://tifflabs.org/posts/moving-proxmox/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+    <category term="Proxmox" />
+    
+  
+
+  
+    <summary>
       
 
+
+
+
+
+      I’ve been wanting to get my Proxmox cluster plugged into my UDM Pro for at least a year now. A few issues were:
+
+
+  Accessing the cluster from a different subnet
+  Updating the IP address of each node in the cluster
+  Keeping old LXC containers and VMs in tact
+  Keeping HDD and SSD mountpoints in tact
+
+
+Wait. Why?
+
+You may be asking, “tiff, why move the cluster at all?” This is a fair thing to ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>State of the Lab: 2024</title>
+    <link href="https://tifflabs.org/posts/state-of-the-lab/" rel="alternate" type="text/html" title="State of the Lab: 2024" />
+    <published>2024-01-24T00:00:00-05:00</published>
+  
+    <updated>2024-04-17T00:44:54-04:00</updated>
+  
+    <id>https://tifflabs.org/posts/state-of-the-lab/</id>
+    <content src="https://tifflabs.org/posts/state-of-the-lab/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Homelab" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      It’s been a almost two years since I shredded my quad and was bedridden for all of 2022 up until May of 2023.
+
+Would have spent the whole of 2023 on the streets if not for close friends and family who allowed me to setup my gear in the small room I am in now.
+
+I have managed to increase the amount of services running because of Proxmox VE Helper Scripts while learning more of the homelab ropes ...
     </summary>
   
 

@@ -23,7 +23,7 @@ const resource = [
     
         '/about/',
     
-        '/affiliate-disclousure/',
+        '/affiliate-disclosure/',
     
 
     /* --- Favicons & compressed JS --- */

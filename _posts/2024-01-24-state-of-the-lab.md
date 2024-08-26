@@ -6,7 +6,6 @@ preview: Expanding the lab in 2024.
 excerpt: Expanding the lab in 2024
 tags: [meta]
 category: [Homelab]
-pin: true
 ---
 
 It's been a almost two years since I shredded my quad and was bedridden for all of 2022 up until May of 2023.

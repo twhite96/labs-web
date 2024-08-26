@@ -39,6 +39,13 @@ body {
 
 /* --- Typography --- */
 
+// @for $i from 1 through 4 {
+//   a#{i}:hover {
+//     @include prompt($type);
+//     background-color: var(--prompt-#{$type}-bg) !important;
+//   }
+// }
+
 @for $i from 1 through 5 {
   h#{$i} {
     @extend %heading;
@@ -132,8 +139,9 @@ blockquote {
     position: relative;
     padding: 1rem 1rem 1rem 3rem;
     color: var(--prompt-text-color);
+  }
 
-    @extend %rounded;
+  @extend %rounded;
 
     &::before {
       text-align: center;
@@ -148,7 +156,6 @@ blockquote {
     > p:last-child {
       margin-bottom: 0;
     }
-  }
 
   @include prompt('tip', '\f0eb', 'regular');
   @include prompt('info', '\f06a');
