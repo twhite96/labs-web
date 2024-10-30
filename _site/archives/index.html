@@ -16,6 +16,8 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" 
   
+    data-mode="light"
+  
 >
   <!-- The Head -->
 
@@ -25,31 +27,29 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta
-    name="viewport"
-    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
-  >
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
   <!-- <script src="../assets/js/dist/littlefoot.js"></script> -->
   
 
   
 
   
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.3" />
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Archives" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="A blog about smart homes made with Home Assistant and home labs." />
 <meta property="og:description" content="A blog about smart homes made with Home Assistant and home labs." />
-<link rel="canonical" href="https://tifflabs.org/archives/" />
-<meta property="og:url" content="https://tifflabs.org/archives/" />
+<link rel="canonical" href="http://0.0.0.0:4004/archives/" />
+<meta property="og:url" content="http://0.0.0.0:4004/archives/" />
 <meta property="og:site_name" content="tiff labs" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2024-08-26T02:59:05-04:00" />
+<meta property="article:published_time" content="2024-10-30T02:19:14-04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Archives" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-26T02:59:05-04:00","datePublished":"2024-08-26T02:59:05-04:00","description":"A blog about smart homes made with Home Assistant and home labs.","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"https://tifflabs.org/archives/"},"url":"https://tifflabs.org/archives/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-10-30T02:19:14-04:00","datePublished":"2024-10-30T02:19:14-04:00","description":"A blog about smart homes made with Home Assistant and home labs.","headline":"Archives","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4004/archives/"},"url":"http://0.0.0.0:4004/archives/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -71,21 +71,21 @@
 
 
   
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com" >
-      <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
-    
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com" >
-      <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
-    
-      <link rel="preconnect" href="https://cdn.jsdelivr.net" >
-      <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
-    
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+  
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" >
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
+  
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap">
   
 
   <!-- GA -->
@@ -103,160 +103,15 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
 
-  
+
   
 
   
-  
+
   <!-- JavaScript -->
   <script data-goatcounter="https://tifflabs.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   
-    <!-- Switch the mode between dark and light. -->
 
-<script type="text/javascript">
-  class ModeToggle {
-    static get MODE_KEY() {
-      return 'mode';
-    }
-    static get MODE_ATTR() {
-      return 'data-mode';
-    }
-    static get DARK_MODE() {
-      return 'dark';
-    }
-    static get LIGHT_MODE() {
-      return 'light';
-    }
-    static get ID() {
-      return 'mode-toggle';
-    }
-
-    constructor() {
-      if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
-      }
-
-      let self = this;
-
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addEventListener('change', () => {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
-
-          self.clearMode();
-        }
-
-        self.notify();
-      });
-    } /* constructor() */
-
-    get sysDarkPrefers() {
-      return window.matchMedia('(prefers-color-scheme: dark)');
-    }
-
-    get isSysDarkPrefer() {
-      return this.sysDarkPrefers.matches;
-    }
-
-    get isDarkMode() {
-      return this.mode === ModeToggle.DARK_MODE;
-    }
-
-    get isLightMode() {
-      return this.mode === ModeToggle.LIGHT_MODE;
-    }
-
-    get hasMode() {
-      return this.mode != null;
-    }
-
-    get mode() {
-      return sessionStorage.getItem(ModeToggle.MODE_KEY);
-    }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    setDark() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    /* Notify another plugins that the theme mode has changed */
-    notify() {
-      window.postMessage(
-        {
-          direction: ModeToggle.ID,
-          message: this.modeStatus
-        },
-        '*'
-      );
-    }
-
-    flipMode() {
-      if (this.hasMode) {
-        if (this.isSysDarkPrefer) {
-          if (this.isLightMode) {
-            this.clearMode();
-          } else {
-            this.setLight();
-          }
-        } else {
-          if (this.isDarkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-        }
-      } else {
-        if (this.isSysDarkPrefer) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
-
-      this.notify();
-    } /* flipMode() */
-  } /* ModeToggle */
-
-  const modeToggle = new ModeToggle();
-</script>
-
-  
-  
   <!-- Littlfoot Footnotes -->
 <script src="https://unpkg.com/littlefoot/dist/littlefoot.js"></script>
 <script type="application/javascript">
@@ -576,14 +431,6 @@
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
     
-      <button class="mode-toggle btn" aria-label="Switch Mode">
-        <i class="fas fa-adjust"></i>
-      </button>
-
-      
-        <span class="icon-border"></span>
-      
-    
 
     
       
@@ -849,6 +696,38 @@
 
   <li>
   
+    <span class="date day" data-ts="1726970648" data-df="DD">21</span>
+    <span class="date month small text-muted ms-1" data-ts="1726970648" data-df="MMM">
+      Sep
+    </span>
+    <a href="/posts/from-homekit-to-homelab/">From HomeKit to Homelab</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1724731200" data-df="DD">27</span>
+    <span class="date month small text-muted ms-1" data-ts="1724731200" data-df="MMM">
+      Aug
+    </span>
+    <a href="/posts/selfhosted-services-i-m-currently-using/">Selfhosted Services I'm Currently Using</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
     <span class="date day" data-ts="1724644800" data-df="DD">26</span>
     <span class="date month small text-muted ms-1" data-ts="1724644800" data-df="MMM">
       Aug
@@ -865,11 +744,123 @@
 
   <li>
   
+    <span class="date day" data-ts="1716955200" data-df="DD">29</span>
+    <span class="date month small text-muted ms-1" data-ts="1716955200" data-df="MMM">
+      May
+    </span>
+    <a href="/posts/creating-a-disk-partition-on-proxmox-with-gdisk/">Creating a Disk Partition on Proxmox with gdisk</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
     <span class="date day" data-ts="1716696000" data-df="DD">26</span>
     <span class="date month small text-muted ms-1" data-ts="1716696000" data-df="MMM">
       May
     </span>
     <a href="/posts/heads-up/">Heads Up</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1716523200" data-df="DD">24</span>
+    <span class="date month small text-muted ms-1" data-ts="1716523200" data-df="MMM">
+      May
+    </span>
+    <a href="/posts/klein-precision-driver-vs-ifixit-pro-kit/">Klein Precision Driver vs iFixit Pro Kit</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1715918400" data-df="DD">17</span>
+    <span class="date month small text-muted ms-1" data-ts="1715918400" data-df="MMM">
+      May
+    </span>
+    <a href="/posts/beelink-proxmox-deployment/">Beelink Mini 12 Pro Proxmox Cluster Deployment</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1714881600" data-df="DD">05</span>
+    <span class="date month small text-muted ms-1" data-ts="1714881600" data-df="MMM">
+      May
+    </span>
+    <a href="/posts/fixing-preallocation-errors/">Fixing Preallocation Errors During VM Creation In Proxmox</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1714708800" data-df="DD">03</span>
+    <span class="date month small text-muted ms-1" data-ts="1714708800" data-df="MMM">
+      May
+    </span>
+    <a href="/posts/monitoring-services-with-influxdb-and-grafana/">Monitoring Services With InfluxDB and Grafana</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1713240000" data-df="DD">16</span>
+    <span class="date month small text-muted ms-1" data-ts="1713240000" data-df="MMM">
+      Apr
+    </span>
+    <a href="/posts/hosting-your-onw-video/">Hosting your own video</a>
+  </li>
+
+  
+
+
+  
+
+  
+
+  <li>
+  
+    <span class="date day" data-ts="1712730326" data-df="DD">10</span>
+    <span class="date month small text-muted ms-1" data-ts="1712730326" data-df="MMM">
+      Apr
+    </span>
+    <a href="/posts/renting/">What You Can (Or Can't) Do When Renting</a>
   </li>
 
   
@@ -1036,13 +1027,6 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/slow-and-dirty-dashboards/">Slow and Dirty Dashboards</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
           <a href="/posts/building-a-home-lab-pt.-1/">Building a Home Lab, Pt. 1</a>
         </li>
       
@@ -1057,7 +1041,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/migrating-devices-separate-networks/">Migrating Devices to Separate Networks</a>
+          <a href="/posts/slow-and-dirty-dashboards/">Slow and Dirty Dashboards</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/renting/">What You Can (Or Can't) Do When Renting</a>
         </li>
       
     </ul>
@@ -1096,6 +1087,134 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1131,6 +1250,93 @@
     
     
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1163,13 +1369,28 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/meta/">meta</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/loadouts/">loadouts</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/proxmox/">proxmox</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sysadmin/">sysadmin</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/grafana/">grafana</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/homelab/">homelab</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/networking/">networking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/selfhosted/">selfhosted</a>
       
     </div>
   </div>
@@ -1221,6 +1442,134 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1256,6 +1605,93 @@
     
     
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1288,13 +1724,28 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/meta/">meta</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/loadouts/">loadouts</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/proxmox/">proxmox</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sysadmin/">sysadmin</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/grafana/">grafana</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/homelab/">homelab</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/networking/">networking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/selfhosted/">selfhosted</a>
       
     </div>
   </div>

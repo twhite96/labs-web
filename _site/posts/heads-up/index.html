@@ -16,6 +16,8 @@
 <!-- `site.alt_lang` can specify a language different from the UI -->
 <html lang="en" 
   
+    data-mode="light"
+  
 >
   <!-- The Head -->
 
@@ -25,31 +27,29 @@
   <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#1b1b1e">
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta
-    name="viewport"
-    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover"
-  >
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no initial-scale=1, shrink-to-fit=no, viewport-fit=cover">
   <!-- <script src="../assets/js/dist/littlefoot.js"></script> -->
   
 
   
 
   
-    <!-- Begin Jekyll SEO tag v2.8.0 -->
-<meta name="generator" content="Jekyll v4.3.3" />
+  <!-- Begin Jekyll SEO tag v2.8.0 -->
+<meta name="generator" content="Jekyll v4.3.4" />
 <meta property="og:title" content="Heads Up" />
 <meta property="og:locale" content="en" />
 <meta name="description" content="Just a heads up about where I’ve been lately." />
 <meta property="og:description" content="Just a heads up about where I’ve been lately." />
-<link rel="canonical" href="https://tifflabs.org/posts/heads-up/" />
-<meta property="og:url" content="https://tifflabs.org/posts/heads-up/" />
+<link rel="canonical" href="http://0.0.0.0:4004/posts/heads-up/" />
+<meta property="og:url" content="http://0.0.0.0:4004/posts/heads-up/" />
 <meta property="og:site_name" content="tiff labs" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2024-05-26T00:00:00-04:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Heads Up" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-05-26T20:53:48-04:00","datePublished":"2024-05-26T00:00:00-04:00","description":"Just a heads up about where I’ve been lately.","headline":"Heads Up","mainEntityOfPage":{"@type":"WebPage","@id":"https://tifflabs.org/posts/heads-up/"},"url":"https://tifflabs.org/posts/heads-up/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-08-26T03:01:52-04:00","datePublished":"2024-05-26T00:00:00-04:00","description":"Just a heads up about where I’ve been lately.","headline":"Heads Up","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4004/posts/heads-up/"},"url":"http://0.0.0.0:4004/posts/heads-up/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -71,21 +71,21 @@
 
 
   
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com" >
-      <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
-    
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
-    
-      <link rel="preconnect" href="https://fonts.googleapis.com" >
-      <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
-    
-      <link rel="preconnect" href="https://cdn.jsdelivr.net" >
-      <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
-    
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+  
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="dns-prefetch" href="https://fonts.gstatic.com" crossorigin>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com" >
+  <link rel="dns-prefetch" href="https://fonts.googleapis.com" >
+  
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" >
+  <link rel="dns-prefetch" href="https://cdn.jsdelivr.net" >
+  
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&display=swap">
   
 
   <!-- GA -->
@@ -103,165 +103,20 @@
 
   <link rel="stylesheet" href="/assets/css/style.css">
 
+
   
-  
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tocbot@4.21.0/dist/tocbot.min.css">
   
 
   
-    <!-- Manific Popup -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
+  <!-- Manific Popup -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/magnific-popup@1.1.0/dist/magnific-popup.min.css">
   
-  
+
   <!-- JavaScript -->
   <script data-goatcounter="https://tifflabs.goatcounter.com/count" async src="//gc.zgo.at/count.js"></script>
   
-    <!-- Switch the mode between dark and light. -->
 
-<script type="text/javascript">
-  class ModeToggle {
-    static get MODE_KEY() {
-      return 'mode';
-    }
-    static get MODE_ATTR() {
-      return 'data-mode';
-    }
-    static get DARK_MODE() {
-      return 'dark';
-    }
-    static get LIGHT_MODE() {
-      return 'light';
-    }
-    static get ID() {
-      return 'mode-toggle';
-    }
-
-    constructor() {
-      if (this.hasMode) {
-        if (this.isDarkMode) {
-          if (!this.isSysDarkPrefer) {
-            this.setDark();
-          }
-        } else {
-          if (this.isSysDarkPrefer) {
-            this.setLight();
-          }
-        }
-      }
-
-      let self = this;
-
-      /* always follow the system prefers */
-      this.sysDarkPrefers.addEventListener('change', () => {
-        if (self.hasMode) {
-          if (self.isDarkMode) {
-            if (!self.isSysDarkPrefer) {
-              self.setDark();
-            }
-          } else {
-            if (self.isSysDarkPrefer) {
-              self.setLight();
-            }
-          }
-
-          self.clearMode();
-        }
-
-        self.notify();
-      });
-    } /* constructor() */
-
-    get sysDarkPrefers() {
-      return window.matchMedia('(prefers-color-scheme: dark)');
-    }
-
-    get isSysDarkPrefer() {
-      return this.sysDarkPrefers.matches;
-    }
-
-    get isDarkMode() {
-      return this.mode === ModeToggle.DARK_MODE;
-    }
-
-    get isLightMode() {
-      return this.mode === ModeToggle.LIGHT_MODE;
-    }
-
-    get hasMode() {
-      return this.mode != null;
-    }
-
-    get mode() {
-      return sessionStorage.getItem(ModeToggle.MODE_KEY);
-    }
-
-    /* get the current mode on screen */
-    get modeStatus() {
-      if (this.isDarkMode || (!this.hasMode && this.isSysDarkPrefer)) {
-        return ModeToggle.DARK_MODE;
-      } else {
-        return ModeToggle.LIGHT_MODE;
-      }
-    }
-
-    setDark() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.DARK_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.DARK_MODE);
-    }
-
-    setLight() {
-      document.documentElement.setAttribute(ModeToggle.MODE_ATTR, ModeToggle.LIGHT_MODE);
-      sessionStorage.setItem(ModeToggle.MODE_KEY, ModeToggle.LIGHT_MODE);
-    }
-
-    clearMode() {
-      document.documentElement.removeAttribute(ModeToggle.MODE_ATTR);
-      sessionStorage.removeItem(ModeToggle.MODE_KEY);
-    }
-
-    /* Notify another plugins that the theme mode has changed */
-    notify() {
-      window.postMessage(
-        {
-          direction: ModeToggle.ID,
-          message: this.modeStatus
-        },
-        '*'
-      );
-    }
-
-    flipMode() {
-      if (this.hasMode) {
-        if (this.isSysDarkPrefer) {
-          if (this.isLightMode) {
-            this.clearMode();
-          } else {
-            this.setLight();
-          }
-        } else {
-          if (this.isDarkMode) {
-            this.clearMode();
-          } else {
-            this.setDark();
-          }
-        }
-      } else {
-        if (this.isSysDarkPrefer) {
-          this.setLight();
-        } else {
-          this.setDark();
-        }
-      }
-
-      this.notify();
-    } /* flipMode() */
-  } /* ModeToggle */
-
-  const modeToggle = new ModeToggle();
-</script>
-
-  
-  
   <!-- Littlfoot Footnotes -->
 <script src="https://unpkg.com/littlefoot/dist/littlefoot.js"></script>
 <script type="application/javascript">
@@ -580,14 +435,6 @@
   <!-- ul.nav.flex-column -->
 
   <div class="sidebar-bottom d-flex flex-wrap  align-items-center w-100">
-    
-      <button class="mode-toggle btn" aria-label="Switch Mode">
-        <i class="fas fa-adjust"></i>
-      </button>
-
-      
-        <span class="icon-border"></span>
-      
     
 
     
@@ -937,13 +784,13 @@
 
 <em
   class=""
-  data-ts="1716771228"
+  data-ts="1724655712"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  May 26, 2024
+  Aug 26, 2024
 </em>
 
     </span>
@@ -1017,7 +864,7 @@
 <div class="footnotes" role="doc-endnotes">
   <ol>
     <li id="fn:1" role="doc-endnote">
-      <p>For toolheads <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a></p>
+      <p>For toolheads <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;&#xfe0e;</a></p>
     </li>
   </ol>
 </div>
@@ -1085,14 +932,14 @@
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Heads%20Up%20-%20tiff%20labs&u=https%3A%2F%2Ftifflabs.org%2Fposts%2Fheads-up%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Heads%20Up%20-%20tiff%20labs&u=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fheads-up%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=https%3A%2F%2Ftifflabs.org%2Fposts%2Fheads-up%2F&text=Heads%20Up%20-%20tiff%20labs" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fheads-up%2F&text=Heads%20Up%20-%20tiff%20labs" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
@@ -1101,7 +948,7 @@
           <share-to-mastodon
             class="share-mastodon"
             message="Heads%20Up%20-%20tiff%20labs"
-            url="https%3A%2F%2Ftifflabs.org%2Fposts%2Fheads-up%2F"
+            url="http%3A%2F%2F0.0.0.0%3A4004%2Fposts%2Fheads-up%2F"
           >
             <i class="fa-fw fa fa-mastodon"></i>
           </share-to-mastodon>
@@ -1169,13 +1016,6 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/slow-and-dirty-dashboards/">Slow and Dirty Dashboards</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
           <a href="/posts/building-a-home-lab-pt.-1/">Building a Home Lab, Pt. 1</a>
         </li>
       
@@ -1190,7 +1030,14 @@
         
         
         <li class="text-truncate lh-lg">
-          <a href="/posts/migrating-devices-separate-networks/">Migrating Devices to Separate Networks</a>
+          <a href="/posts/slow-and-dirty-dashboards/">Slow and Dirty Dashboards</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
+          <a href="/posts/renting/">What You Can (Or Can't) Do When Renting</a>
         </li>
       
     </ul>
@@ -1229,6 +1076,134 @@
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1264,6 +1239,93 @@
     
     
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1296,13 +1358,28 @@
         <a class="post-tag btn btn-outline-primary" href="/tags/meta/">meta</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/loadouts/">loadouts</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/proxmox/">proxmox</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sysadmin/">sysadmin</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/grafana/">grafana</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/homelab/">homelab</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/networking/">networking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/selfhosted/">selfhosted</a>
       
     </div>
   </div>
@@ -1414,6 +1491,30 @@
 
   
 
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
 
 
 
@@ -1429,6 +1530,46 @@
       Further Reading
     </h3>
     <div class="row row-cols-1 row-cols-md-2 row-cols-xl-3 g-4 mb-4">
+      
+        <div class="col">
+          <a href="/posts/renting/" class="card post-preview h-100">
+            <div class="card-body">
+              <!--
+  Date format snippet
+  See: ${JS_ROOT}/utils/locale-dateime.js
+-->
+
+
+
+
+
+<em
+  class="small"
+  data-ts="1712730326"
+  data-df="ll"
+  
+>
+  Apr 10, 2024
+</em>
+
+              <h4 class="pt-0 my-2" data-toc-skip>What You Can (Or Can't) Do When Renting</h4>
+              <div class="text-muted small">
+                <p>
+                  
+
+
+
+
+
+                  What You Can (Or Can’t) Do When Renting
+
+
+  Depending on where you rent, these tips may, or may not, be feasible alterations to make. Please be sure to check with your landlord before undertaking a...
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
       
         <div class="col">
           <a href="/posts/curiosity-and-home-assistant/" class="card post-preview h-100">
@@ -1512,51 +1653,6 @@ I am still learning about how to use a VLAN and how to set one up on ...
           </a>
         </div>
       
-        <div class="col">
-          <a href="/posts/building-a-home-lab-pt.-1/" class="card post-preview h-100">
-            <div class="card-body">
-              <!--
-  Date format snippet
-  See: ${JS_ROOT}/utils/locale-dateime.js
--->
-
-
-
-
-
-<em
-  class="small"
-  data-ts="1699678800"
-  data-df="ll"
-  
->
-  Nov 11, 2023
-</em>
-
-              <h4 class="pt-0 my-2" data-toc-skip>Building a Home Lab, Pt. 1</h4>
-              <div class="text-muted small">
-                <p>
-                  
-
-
-
-
-
-                  I’ve had one going for a while but today, it’s cleanup day.
-
-
-
-Some background…
-
-Home Assistant got me into DevOps.
-
-Don’t get me wrong, I was interested, but the more I read about Home Assistant a...
-                </p>
-              </div>
-            </div>
-          </a>
-        </div>
-      
     </div>
     <!-- .card-deck -->
   </div>
@@ -1570,11 +1666,11 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
 <div class="post-navigation d-flex justify-content-between">
   
     <a
-      href="/posts/toolsday-posts/"
+      href="/posts/renting/"
       class="btn btn-outline-primary"
       prompt="Older"
     >
-      <p>Toolsday</p>
+      <p>What You Can (Or Can't) Do When Renting</p>
     </a>
   
 
@@ -1621,7 +1717,7 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
       'data-category': 'Ideas',
       'data-category-id': 'DIC_kwDOKHTsLs4CYyxj',
       'data-mapping': 'pathname',
-      'data-reactions-enabled': '1',
+      'data-reactions-enabled': '0',
       'data-emit-metadata': '0',
       'data-theme': initTheme,
       'data-input-position': 'bottom',
@@ -1703,6 +1799,134 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
     
     
     
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
       
         
         
@@ -1738,6 +1962,93 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
     
     
       
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
+    
+      
+        
+        
+
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+      
+    
+  
+    
+    
+    
+    
+  
+    
+    
+    
     
   
     
@@ -1770,13 +2081,28 @@ Don’t get me wrong, I was interested, but the more I read about Home Assistant
         <a class="post-tag btn btn-outline-primary" href="/tags/meta/">meta</a>
       
         
-        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
-      
-        
         <a class="post-tag btn btn-outline-primary" href="/tags/loadouts/">loadouts</a>
       
         
+        <a class="post-tag btn btn-outline-primary" href="/tags/proxmox/">proxmox</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/sysadmin/">sysadmin</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/dashboard/">dashboard</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/grafana/">grafana</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/homelab/">homelab</a>
+      
+        
         <a class="post-tag btn btn-outline-primary" href="/tags/networking/">networking</a>
+      
+        
+        <a class="post-tag btn btn-outline-primary" href="/tags/selfhosted/">selfhosted</a>
       
     </div>
   </div>
