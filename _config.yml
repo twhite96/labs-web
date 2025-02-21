@@ -7,7 +7,6 @@ theme: jekyll-theme-chirpy
 # and doesn't have a custom domain.
 baseurl: ""
 
-
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
@@ -33,7 +32,7 @@ github:
   username: twhite96 # change to your github username
 
 # twitter:
-  #username: twitter_username # change to your twitter username
+#username: twitter_username # change to your twitter username
 
 social:
   # Change to your full name.
@@ -42,7 +41,7 @@ social:
   email: contact@tifflabs.org # change to your email address
   links:
     # The first element serves as the copyright owner's link
-   # - https://twitter.com/username # change to your twitter homepage
+    # - https://twitter.com/username # change to your twitter homepage
     - https://github.com/twhite96 # change to your github homepage
     # Uncomment below to add more social links
     # - https://www.facebook.com/username
@@ -116,10 +115,14 @@ paginate: 10
 
 plugins:
   - jekyll-analytics
+  - jekyll-redirect-from
 
-Plausible:
-    domain: 'tifflabs.org'   # The domain configured in plausible
-    source: 'https://plausible.example.com/js/plausible.js' # The source of the javascript
+whitelist:
+  - jekyll-redirect-from
+
+# Plausible:
+#   domain: "tifflabs.org" # The domain configured in plausible
+#   source: "https://plausible.example.com/js/plausible.js" # The source of the javascript
 
 gems:
   - octopress-littlefoot
@@ -204,11 +207,9 @@ exclude:
 # future: true
 
 liquid:
-  error_mode        : warn
-  strict_filters    : false
-  strict_variables  : false
-
-
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
 
 jekyll-archives:
   enabled: [categories, tags]
