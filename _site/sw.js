@@ -1,6 +1,6 @@
 self.importScripts('/assets/js/data/swcache.js');
 
-const cacheName = 'chirpy-20250220.235806';
+const cacheName = 'chirpy-20250222.171647';
 
 function verifyDomain(url) {
     for (const domain of allowedDomains) {
