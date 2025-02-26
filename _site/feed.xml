@@ -4,7 +4,7 @@
   <id>http://localhost:4004/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2025-02-25T20:53:56-05:00</updated>
+  <updated>2025-02-25T20:56:37-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://localhost:4004/</uri>
@@ -22,9 +22,9 @@
   <entry>
     <title>The New Direction of the Site</title>
     <link href="http://localhost:4004/posts/what-this-site-will-be/" rel="alternate" type="text/html" title="The New Direction of the Site" />
-    <published>2024-08-26T00:00:00-04:00</published>
+    <published>2025-02-25T00:00:00-05:00</published>
   
-    <updated>2024-08-26T00:00:00-04:00</updated>
+    <updated>2025-02-25T00:00:00-05:00</updated>
   
     <id>http://localhost:4004/posts/what-this-site-will-be/</id>
     <content src="http://localhost:4004/posts/what-this-site-will-be/" />

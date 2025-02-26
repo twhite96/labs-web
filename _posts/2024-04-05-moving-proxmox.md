@@ -6,11 +6,9 @@ description: Moving Proxmox to new subnet poses challenges.
 excerpt: Moving Proxmox to new subnet poses challenges.
 tags: [networking]
 category: [Homelab, Proxmox]
-pin: true
 ---
 
-I've been wanting to get my Proxmox cluster plugged into my UDM Pro for at least a year now. A few issues were: 
-
+I've been wanting to get my Proxmox cluster plugged into my UDM Pro for at least a year now. A few issues were:
 
 - Accessing the cluster from a different subnet
 - Updating the IP address of each node in the cluster
@@ -21,16 +19,15 @@ I've been wanting to get my Proxmox cluster plugged into my UDM Pro for at least
 
 You may be asking, "tiff, why move the cluster at all?" This is a fair thing to ask because it was a headache and a half to get this working. The juice that made it worth the squeeze: The Unifi Network Application.
 
-Being able to monitor what is coming in and out of those nodes on my network is important to me. 
+Being able to monitor what is coming in and out of those nodes on my network is important to me.
 
 A few months back my Synology got hit with a barrage of bot attacks from someone scanning for open ports in Shodan or something. The only reason I knew was because I'd logged in to do something and noticed thousands of notifications DSM fly by each second. Luckily for me I'd hardened the security on my Synology well enough to withstand the days long barrage of bots but it would have been nicer to know ahead of time and, with more data at my disposal, know what to do about it, where the failure points were so I could mitigate something like that in the future.
 
 For my Proxmox cluster, this is especially critical because of the services I host on it. I am still learning as well so security is something I am implementing as I know more about how to lock down your services exposed to the web and having that data could be a useful tool in progressing with this.
 
-
 ## How I solved the issue
 
-There are a few steps I took that I will link below. In the first GitHub gist, 
+There are a few steps I took that I will link below. In the first GitHub gist,
 
 <script src="https://gist.github.com/twhite96/2ed4c6f3d50ed0009947c69e7bded6ca.js"></script>
 
@@ -43,10 +40,8 @@ I followed this Reddit post for guidance:
 Response to OP that I used:
 <br>
 
-
 > The following steps will unlink your cluster. You can create a new cluster of course. I'm just warning you.
-{: .prompt-danger }
-
+> {: .prompt-danger }
 
 <br>
 

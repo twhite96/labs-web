@@ -3,13 +3,13 @@ title: "The New Direction of the Site"
 excerpt: "It's nothing personal, but it kinda is."
 description: "It's nothing personal, but it kinda is."
 tags: [meta]
-date: 2024-08-26
+date: 2025-02-25
 category: [Announcements]
 pin: true
 ---
 
 > This will be short and sweet but necessary.
-{: .prompt-info}
+> {: .prompt-info}
 
 Here's the short of it:
 
