@@ -1,33 +1,75 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>https://tifflabs.org/</id>
+  <id>http://localhost:4004/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2024-08-26T02:59:05-04:00</updated>
+  <updated>2025-02-25T20:53:56-05:00</updated>
   <author>
     <name>tiff</name>
-    <uri>https://tifflabs.org/</uri>
+    <uri>http://localhost:4004/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="https://tifflabs.org/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4004/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="https://tifflabs.org/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.3">Jekyll</generator>
-  <rights> © 2024 tiff </rights>
+    href="http://localhost:4004/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 tiff </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>Loadouts and High Fives</title>
-    <link href="https://tifflabs.org/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
+    <title>The New Direction of the Site</title>
+    <link href="http://localhost:4004/posts/what-this-site-will-be/" rel="alternate" type="text/html" title="The New Direction of the Site" />
     <published>2024-08-26T00:00:00-04:00</published>
   
     <updated>2024-08-26T00:00:00-04:00</updated>
   
-    <id>https://tifflabs.org/posts/loadouts-and-high-fives/</id>
-    <content src="https://tifflabs.org/posts/loadouts-and-high-fives/" />
+    <id>http://localhost:4004/posts/what-this-site-will-be/</id>
+    <content src="http://localhost:4004/posts/what-this-site-will-be/" />
+    <author>
+      <name>tiff</name>
+    </author>
+
+  
+    
+    <category term="Announcements" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+  This will be short and sweet but necessary.
+
+
+Here’s the short of it:
+
+
+  I was basically homeless during Thanksgiving. I spent the couple weeks in a place I will not name to find me a place to live.
+  Having the debts I had through losing my job and having a major health expense meant that while my credit score is fine, I’ve maxed all my cards out. This makes it hard to find a place to rent...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Loadouts and High Fives</title>
+    <link href="http://localhost:4004/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
+    <published>2024-08-26T00:00:00-04:00</published>
+  
+    <updated>2024-08-26T00:00:00-04:00</updated>
+  
+    <id>http://localhost:4004/posts/loadouts-and-high-fives/</id>
+    <content src="http://localhost:4004/posts/loadouts-and-high-fives/" />
     <author>
       <name>tiff</name>
     </author>
@@ -63,13 +105,13 @@ For years I got by using cheap tools from Dollar Tree or random tools I...
   
   <entry>
     <title>Heads Up</title>
-    <link href="https://tifflabs.org/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
+    <link href="http://localhost:4004/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
     <published>2024-05-26T00:00:00-04:00</published>
   
-    <updated>2024-05-26T20:53:48-04:00</updated>
+    <updated>2024-08-26T03:01:52-04:00</updated>
   
-    <id>https://tifflabs.org/posts/heads-up/</id>
-    <content src="https://tifflabs.org/posts/heads-up/" />
+    <id>http://localhost:4004/posts/heads-up/</id>
+    <content src="http://localhost:4004/posts/heads-up/" />
     <author>
       <name>tiff</name>
     </author>
@@ -100,13 +142,13 @@ I’ve also started using Amazon Affiliate Links, which you can find the disclos
   
   <entry>
     <title>Toolsday</title>
-    <link href="https://tifflabs.org/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
+    <link href="http://localhost:4004/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
     <published>2024-04-10T00:00:00-04:00</published>
   
     <updated>2024-04-10T00:00:00-04:00</updated>
   
-    <id>https://tifflabs.org/posts/toolsday-posts/</id>
-    <content src="https://tifflabs.org/posts/toolsday-posts/" />
+    <id>http://localhost:4004/posts/toolsday-posts/</id>
+    <content src="http://localhost:4004/posts/toolsday-posts/" />
     <author>
       <name>tiff</name>
     </author>
@@ -140,13 +182,13 @@ I love tools and I’ve been going balls deep into Tool and DIY YouTube these pa
   
   <entry>
     <title>Moving Proxmox to New Subnet</title>
-    <link href="https://tifflabs.org/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
+    <link href="http://localhost:4004/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
     <published>2024-04-05T22:40:00-04:00</published>
   
     <updated>2024-04-05T22:40:00-04:00</updated>
   
-    <id>https://tifflabs.org/posts/moving-proxmox/</id>
-    <content src="https://tifflabs.org/posts/moving-proxmox/" />
+    <id>http://localhost:4004/posts/moving-proxmox/</id>
+    <content src="http://localhost:4004/posts/moving-proxmox/" />
     <author>
       <name>tiff</name>
     </author>
@@ -179,44 +221,6 @@ I love tools and I’ve been going balls deep into Tool and DIY YouTube these pa
 Wait. Why?
 
 You may be asking, “tiff, why move the cluster at all?” This is a fair thing to ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>State of the Lab: 2024</title>
-    <link href="https://tifflabs.org/posts/state-of-the-lab/" rel="alternate" type="text/html" title="State of the Lab: 2024" />
-    <published>2024-01-24T00:00:00-05:00</published>
-  
-    <updated>2024-04-17T00:44:54-04:00</updated>
-  
-    <id>https://tifflabs.org/posts/state-of-the-lab/</id>
-    <content src="https://tifflabs.org/posts/state-of-the-lab/" />
-    <author>
-      <name>tiff</name>
-    </author>
-
-  
-    
-    <category term="Homelab" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      It’s been a almost two years since I shredded my quad and was bedridden for all of 2022 up until May of 2023.
-
-Would have spent the whole of 2023 on the streets if not for close friends and family who allowed me to setup my gear in the small room I am in now.
-
-I have managed to increase the amount of services running because of Proxmox VE Helper Scripts while learning more of the homelab ropes ...
     </summary>
   
 

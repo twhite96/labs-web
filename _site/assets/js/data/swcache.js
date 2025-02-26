@@ -17,13 +17,11 @@ const resource = [
     
         '/archives/',
     
-        '/open-source-projects/',
+        '/other-work/',
     
         '/quick-links/',
     
         '/about/',
-    
-        '/affiliate-disclosure/',
     
 
     /* --- Favicons & compressed JS --- */
@@ -35,7 +33,7 @@ const resource = [
 const allowedDomains = [
     
 
-    'tifflabs.org',
+    'localhost:4004',
 
     
         'res.cloudinary.com',

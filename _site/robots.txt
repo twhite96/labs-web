@@ -1,5 +1,5 @@
 User-agent: *
 
 Disallow: /norobots/
-Allow: EchoFeed fetch bot; https://echofeed.app
-Sitemap: https://tifflabs.org/sitemap.xml
+
+Sitemap: http://localhost:4004/sitemap.xml
