@@ -9,7 +9,7 @@ pin: true
 ---
 
 > This will be short and sweet but necessary.
-> {: .prompt-info}
+{: .prompt-info}
 
 Here's the short of it:
 

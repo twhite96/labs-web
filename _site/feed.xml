@@ -4,7 +4,7 @@
   <id>http://localhost:4004/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2025-02-25T20:56:37-05:00</updated>
+  <updated>2025-02-25T20:57:43-05:00</updated>
   <author>
     <name>tiff</name>
     <uri>http://localhost:4004/</uri>
@@ -24,7 +24,7 @@
     <link href="http://localhost:4004/posts/what-this-site-will-be/" rel="alternate" type="text/html" title="The New Direction of the Site" />
     <published>2025-02-25T00:00:00-05:00</published>
   
-    <updated>2025-02-25T00:00:00-05:00</updated>
+    <updated>2025-02-25T20:56:45-05:00</updated>
   
     <id>http://localhost:4004/posts/what-this-site-will-be/</id>
     <content src="http://localhost:4004/posts/what-this-site-will-be/" />
@@ -145,7 +145,7 @@ I’ve also started using Amazon Affiliate Links, which you can find the disclos
     <link href="http://localhost:4004/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
     <published>2024-04-10T00:00:00-04:00</published>
   
-    <updated>2024-04-10T00:00:00-04:00</updated>
+    <updated>2025-02-25T20:56:45-05:00</updated>
   
     <id>http://localhost:4004/posts/toolsday-posts/</id>
     <content src="http://localhost:4004/posts/toolsday-posts/" />
@@ -185,7 +185,7 @@ I love tools and I’ve been going balls deep into Tool and DIY YouTube these pa
     <link href="http://localhost:4004/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
     <published>2024-04-05T22:40:00-04:00</published>
   
-    <updated>2024-04-05T22:40:00-04:00</updated>
+    <updated>2025-02-25T20:56:45-05:00</updated>
   
     <id>http://localhost:4004/posts/moving-proxmox/</id>
     <content src="http://localhost:4004/posts/moving-proxmox/" />
