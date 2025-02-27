@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4004/</id>
+  <id>https://tifflabs.org/</id>
   <title>tiff labs</title>
   <subtitle>A blog about smart homes made with Home Assistant and home labs.</subtitle>
-  <updated>2025-02-25T20:57:43-05:00</updated>
+  <updated>2025-02-27T16:44:26-05:00</updated>
   <author>
     <name>tiff</name>
-    <uri>http://localhost:4004/</uri>
+    <uri>https://tifflabs.org/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4004/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="https://tifflabs.org/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4004/"/>
+    href="https://tifflabs.org/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 tiff </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,13 +21,13 @@
   
   <entry>
     <title>The New Direction of the Site</title>
-    <link href="http://localhost:4004/posts/what-this-site-will-be/" rel="alternate" type="text/html" title="The New Direction of the Site" />
+    <link href="https://tifflabs.org/posts/what-this-site-will-be/" rel="alternate" type="text/html" title="The New Direction of the Site" />
     <published>2025-02-25T00:00:00-05:00</published>
   
-    <updated>2025-02-25T20:56:45-05:00</updated>
+    <updated>2025-02-25T20:57:51-05:00</updated>
   
-    <id>http://localhost:4004/posts/what-this-site-will-be/</id>
-    <content src="http://localhost:4004/posts/what-this-site-will-be/" />
+    <id>https://tifflabs.org/posts/what-this-site-will-be/</id>
+    <content src="https://tifflabs.org/posts/what-this-site-will-be/" />
     <author>
       <name>tiff</name>
     </author>
@@ -63,13 +63,13 @@ Here’s the short of it:
   
   <entry>
     <title>Loadouts and High Fives</title>
-    <link href="http://localhost:4004/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
+    <link href="https://tifflabs.org/posts/loadouts-and-high-fives/" rel="alternate" type="text/html" title="Loadouts and High Fives" />
     <published>2024-08-26T00:00:00-04:00</published>
   
     <updated>2024-08-26T00:00:00-04:00</updated>
   
-    <id>http://localhost:4004/posts/loadouts-and-high-fives/</id>
-    <content src="http://localhost:4004/posts/loadouts-and-high-fives/" />
+    <id>https://tifflabs.org/posts/loadouts-and-high-fives/</id>
+    <content src="https://tifflabs.org/posts/loadouts-and-high-fives/" />
     <author>
       <name>tiff</name>
     </author>
@@ -105,13 +105,13 @@ For years I got by using cheap tools from Dollar Tree or random tools I...
   
   <entry>
     <title>Heads Up</title>
-    <link href="http://localhost:4004/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
+    <link href="https://tifflabs.org/posts/heads-up/" rel="alternate" type="text/html" title="Heads Up" />
     <published>2024-05-26T00:00:00-04:00</published>
   
     <updated>2024-08-26T03:01:52-04:00</updated>
   
-    <id>http://localhost:4004/posts/heads-up/</id>
-    <content src="http://localhost:4004/posts/heads-up/" />
+    <id>https://tifflabs.org/posts/heads-up/</id>
+    <content src="https://tifflabs.org/posts/heads-up/" />
     <author>
       <name>tiff</name>
     </author>
@@ -142,13 +142,13 @@ I’ve also started using Amazon Affiliate Links, which you can find the disclos
   
   <entry>
     <title>Toolsday</title>
-    <link href="http://localhost:4004/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
+    <link href="https://tifflabs.org/posts/toolsday-posts/" rel="alternate" type="text/html" title="Toolsday" />
     <published>2024-04-10T00:00:00-04:00</published>
   
     <updated>2025-02-25T20:56:45-05:00</updated>
   
-    <id>http://localhost:4004/posts/toolsday-posts/</id>
-    <content src="http://localhost:4004/posts/toolsday-posts/" />
+    <id>https://tifflabs.org/posts/toolsday-posts/</id>
+    <content src="https://tifflabs.org/posts/toolsday-posts/" />
     <author>
       <name>tiff</name>
     </author>
@@ -182,13 +182,13 @@ I love tools and I’ve been going balls deep into Tool and DIY YouTube these pa
   
   <entry>
     <title>Moving Proxmox to New Subnet</title>
-    <link href="http://localhost:4004/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
+    <link href="https://tifflabs.org/posts/moving-proxmox/" rel="alternate" type="text/html" title="Moving Proxmox to New Subnet" />
     <published>2024-04-05T22:40:00-04:00</published>
   
     <updated>2025-02-25T20:56:45-05:00</updated>
   
-    <id>http://localhost:4004/posts/moving-proxmox/</id>
-    <content src="http://localhost:4004/posts/moving-proxmox/" />
+    <id>https://tifflabs.org/posts/moving-proxmox/</id>
+    <content src="https://tifflabs.org/posts/moving-proxmox/" />
     <author>
       <name>tiff</name>
     </author>
