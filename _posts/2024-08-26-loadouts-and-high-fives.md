@@ -5,15 +5,7 @@ description: If there's a heaven, it's gotta have power tools.
 tags: [loadouts]
 date: 2024-08-26
 category: [DIY, Toolsday]
-pin: true
 ---
-
-
-> Affiliate links are at the bottom of the post in case you want to pick something up, at no extra cost to you. You can read my [affiliate disclosure](/affiliate-disclosure) if you're interested.
-{: .prompt-info }
-
-
-
 
 I love tools. There is no getting around that fact. When you're building a PC or adding roll out shelves to your server rack good tools are important.
 
